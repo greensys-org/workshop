@@ -15,32 +15,32 @@ carousels:
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
 
 <div class="container-fluid text-center my-5">
-    <div class="row mb-2 align-items-center">
-        <div class="col">
+    <div class="row mb-2 align-items-center d">
+        <div class="col d-none d-md-block">
             <i class="fa-solid fa-people-roof fa-2xl" style="color: #5EBC67;"></i>
         </div>
-        <div class="col">
+        <div class="col d-none d-md-block">
             <i class="fa-regular fa-calendar-days fa-2xl" style="color: #5EBC67;"></i>
         </div>
-        <div class="col">
+        <div class="col d-none d-md-block">
             <i class="fa-solid fa-map-location-dot fa-2xl" style="color: #5EBC67;"></i>
         </div>
-        <div class="col">
+        <div class="col d-none d-md-block">
             <i class="fa-solid fa-hourglass-half fa-2xl" style="color: #5EBC67;"></i>
         </div>
     </div>
     <div class="row align-items-center">
-        <div class="col">
-            <strong>Co-located with</strong> <br> <a href="https://2025.eurosys.org">EuroSys 2025</a>
+        <div class="col-12 col-md-3">
+            <strong>Co-located with:</strong> <br> <a href="https://2025.eurosys.org">EuroSys 2025</a>
         </div>
-        <div class="col">
-            <strong>Date</strong> <br> 30th of March 2025 (TBC)
+        <div class="col-12 col-md-3">
+            <strong>Date:</strong> <br> 30th of March 2025 (TBC)
         </div>
-        <div class="col">
-            <strong>Location</strong> <br> Rotterdam, Netherlands
+        <div class="col-12 col-md-3">
+            <strong>Location:</strong> <br> Rotterdam, Netherlands
         </div>
-        <div class="col">
-            <strong>Submission</strong> <br> 31st of January 2025
+        <div class="col-12 col-md-3">
+            <strong>Submission:</strong> <br> 31st of January 2025
         </div>
     </div>
 </div>
