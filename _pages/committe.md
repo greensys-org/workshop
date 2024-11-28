@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /Committe/
+permalink: /organzing-committe/
 title: Organizing Committe
 nav: true
 nav_order: 5
