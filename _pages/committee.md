@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /organzing-committe/
-title: Organizing Committe
+permalink: /organzing-committee/
+title: Organizing Committee
 nav: true
 nav_order: 5
 
