@@ -20,4 +20,4 @@ Authors are invited to submit their journal publication research manuscripts in 
 - Carbon-aware LLMs
 - Software engineering practices for energy-aware AI
 - AI for energy-efficient systems
-- TODO
+- ...
