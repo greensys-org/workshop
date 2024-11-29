@@ -45,8 +45,21 @@ carousels:
     </div>
 </div>
 
-The rapid growth of Machine Learning (ML) and Artificial Intelligence (AI) applications has introduced significant sustainability challenges. These advanced computational models, with their intensive processing and data requirements, have substantially increased energy consumption in IT infrastructure, leading to a larger carbon footprint.
 
-The sustainability of large-scale AI systems is particularly challenging due to the diversity in hardware architectures, software stacks, and model complexities. This variability necessitates innovative approaches to enhance energy and carbon efficiency throughout AI model’s lifecycle. Addressing these challenges requires advancements in AI algorithms, hardware, and runtime systems overseeing complex cyber-physical infrastructures. Solutions must be data-driven and incorporate cross-layer optimization across models, hardware, software stacks, and energy sources. Additionally, they should also enable automated energy consumption measurement and inform effective design and deployment strategies. 
+The GreenSys workshop, colocated with EuroSys 2025, aims to foster dialogue between systems and Artificial Intelligence (AI) researchers to identify solutions to key sustainability challenges in AI, 
+ensuring a more sustainable future for AI development and deployment.
 
-GreenSys aims to foster dialogue between systems and AI researchers to identify solutions to key sustainability challenges in AI, ensuring a more sustainable future for AI development & deployment.
+The rapid expansion of Machine Learning (ML) and AI applications has brought significant sustainability challenges. These advanced computational models,
+with their intensive processing and data requirements, have substantially increased the energy consumption and carbon footprint of backend IT infrastructures.
+
+The sustainability of large-scale AI systems is particularly challenging due to the diversity in hardware architectures, software stacks, and model complexities. 
+This variability necessitates innovative approaches to enhance energy and carbon efficiency throughout the AI model lifecycle. Addressing these challenges requires advancements in AI algorithms,
+ hardware, and runtime systems that oversee complex cyber-physical infrastructures. Solutions must be data-driven and incorporate cross-layer optimization across models, hardware, software stacks, and energy sources.
+
+GreenSys 2025  will feature:
+
+1. **Invited Keynote Talks:** Presentations from leading industry practitioners and academic researchers. 
+2. **Journal-First Presentation Track:** Showcasing cutting-edge research published in top-tier journals.
+3. **Panel Discussions:** Engaging conversations on the latest trends and future directions in sustainable AI.
+
+Join us at GreenSys in Rotterdam to contribute to the conversation and drive innovation towards a greener AI future.
