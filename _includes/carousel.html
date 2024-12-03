@@ -28,6 +28,7 @@
           <ul>
             {% for item in page.carousels[number].images %}
             <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
+            <span class="carousel__credits"> {{ item.attribution }}</span>
             {% endfor %}
           </ul>
         </div>
@@ -169,6 +170,12 @@
 }
 .carousel__indicator {
   background-color: #fafafa;
+}
+.carousel__credits {
+  display: block;
+  font-size: 0.8em;
+  color: #fafafa;
+  background-color: rgba(0,0,0,0.2);
 }
 {% for item in page.carousels[number].images %}
 .carousel__slide:nth-of-type({{ forloop.index }}),
