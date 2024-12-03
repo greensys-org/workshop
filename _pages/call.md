@@ -15,8 +15,9 @@ Authors are invited to submit their journal publication research manuscripts in 
 
 - Sustainable AI
 - Energy-efficient AI MLOps
-- Carbon-aware LLMs
+- Power and Carbon-aware workload Management
+- Data Center Optimizations
+- Carbon-aware LLM Life Cycle Management
 - Software engineering practices for energy-aware AI
 - AI for energy-efficient systems
 - ...
--
