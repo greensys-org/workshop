@@ -1,0 +1,1 @@
+<strong><a href="https://en.unimib.it/leonardo-mariani">Leonardo Mariani</a></strong>, Full Professor of Software Engineering and Testing at the Department of Informatics, Systems and Communication, University of Milano-Bicocca (UniMiB).
