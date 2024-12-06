@@ -62,8 +62,8 @@ This variability necessitates innovative approaches to enhance energy and carbon
 
 GreenSys 2025  will feature:
 
-1. **Invited Keynote Talks:** Presentations from leading industry practitioners and academic researchers. 
-2. **Journal-First Presentation Track:** Showcasing cutting-edge research published in top-tier journals.
-3. **Panel Discussions:** Engaging conversations on the latest trends and future directions in sustainable AI.
+1. **Invited Talks:** Presentations from leading industry practitioners and academic researchers. 
+2. **Journal-First Presentations:** Showcasing cutting-edge research published in top-tier journals.
+3. **Panel Discussion:** Engaging conversations on the latest trends and future directions in sustainable AI.
 
 Join us at GreenSys in Rotterdam to contribute to the conversation and drive innovation towards a greener AI future.
