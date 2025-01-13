@@ -33,7 +33,7 @@ profiles:
       <p>TU Wien</p><br>
       <p>Vienna, Austria</p>
   - align: left
-    image: ezio.png
+    image: ezio.jpg
     content: about_ezio.md
     image_circular: true # crops the image to make it circular
     more_info: >
