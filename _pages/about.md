@@ -38,13 +38,13 @@ carousels:
             <strong>Co-located with:</strong> <br> <a href="https://2025.eurosys.org">EuroSys 2025</a>
         </div>
         <div class="col-12 col-md-3">
-            <strong>Date:</strong> <br> TBC
+            <strong>Date:</strong> <br> 30th of March 2025 (tentative)
         </div>
         <div class="col-12 col-md-3">
             <strong>Location:</strong> <br> Rotterdam, Netherlands
         </div>
         <div class="col-12 col-md-3">
-            <strong>Submission:</strong> <br> 31st of January 2025
+            <strong>Submission:</strong> <br> 10th of February 2025
         </div>
     </div>
 </div>
