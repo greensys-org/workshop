@@ -21,7 +21,7 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info:
   - align: left
-    image: placeholder.png
+    image: placeholder.jpg
     content: about_placeholder.md
     image_circular: true # crops the image to make it circular
     more_info:
