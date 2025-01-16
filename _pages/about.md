@@ -38,7 +38,7 @@ carousels:
             <strong>Co-located with:</strong> <br> <a href="https://2025.eurosys.org">EuroSys 2025</a>
         </div>
         <div class="col-12 col-md-3">
-            <strong>Date:</strong> <br> 30th of March 2025 (tentative)
+            <strong>Date:</strong> <br> 30th of March 2025
         </div>
         <div class="col-12 col-md-3">
             <strong>Location:</strong> <br> Rotterdam, Netherlands
