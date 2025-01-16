@@ -1,4 +1,4 @@
-<strong><a href="https://people.cs.umass.edu/~shenoy/index.html"><font size="5">Ana Radovanović</font></a></strong> is a
+<strong><a href="https://linkedin.com/in/anaradovanovic"><font size="5">Ana Radovanović</font></a></strong> is a
 Senior Staff Research Scientist, serving as a Technical Lead for Energy Analytics and Carbon Aware Computing with Google.<br>
 She received the Ph.D. degree in electrical engineering from Columbia University in 2005 and she has been a Research
 Scientist with Google since early 2008.<br>
