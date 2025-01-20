@@ -16,10 +16,12 @@ profiles:
       <p>University of Massachusetts</p><br>
       <p>Amherst, USA</p>
   - align: left
-    image: placeholder.jpg
-    content: about_placeholder.md
+    image: ivano.jpg
+    content: about_ivano.md
     image_circular: true # crops the image to make it circular
-    more_info:
+    more_info: >
+      <p>Vrije Universiteit Amsterdam</p><br>
+      <p>Amsterdam, Netherlands</p> 
   - align: left
     image: placeholder.jpg
     content: about_placeholder.md
