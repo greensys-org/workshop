@@ -23,8 +23,10 @@ profiles:
       <p>Vrije Universiteit Amsterdam</p><br>
       <p>Amsterdam, Netherlands</p> 
   - align: left
-    image: placeholder.jpg
-    content: about_placeholder.md
+    image: thaleia.jpg
+    content: about_thaleia.md
     image_circular: true # crops the image to make it circular
-    more_info:
+    more_info: >
+      <p>IMEDEA Software Institute</p><br>
+      <p>Madrid, Spain</p> 
 ---
