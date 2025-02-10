@@ -70,7 +70,7 @@ The articles will be listed in the workshop program and GreenSys 2025 participan
 
 ## Important Dates
 
-- Submission Deadline: 10th of February 2025
-- Notification of Acceptance: 15th of February, 2025
+- Submission Deadline: 19th of February 2025
+- Notification of Acceptance: 22th of February, 2025
 - Early-bird Author Registration Deadline: 3rd of March 2025
 - Workshop Date: 30th of March
