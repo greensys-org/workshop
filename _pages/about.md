@@ -44,7 +44,7 @@ carousels:
             <strong>Location:</strong> <br> Rotterdam, Netherlands
         </div>
         <div class="col-12 col-md-3">
-            <strong>Submission:</strong> <br> 10th of February 2025
+            <strong>Submission:</strong> <br> 19th of February 2025
         </div>
     </div>
 </div>
