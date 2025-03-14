@@ -109,13 +109,13 @@ nav_order: 4
         
         <tr>
           <td rowspan="2">Invited Talk <br>Session II</td>
-          <td>11:00 AM - 11:45 AM</td>
+          <td>11:00  - 11:45 AM</td>
           <td>Vittorio Cortellessa<br>
             <i>Università dell'Aquila, Italy</i></td>
           <td>25+ Years of Software Performance: From Integrated System Modeling to AI-Based Runtime Analysis—Any Relation to Sustainability?</td>
         </tr>
         <tr>
-          <td>11:45 AM - 12:30 PM</td>
+          <td>11:45 - 12:30 PM</td>
           <td>Yuri Demchenko<br>
             <i>University of Amsterdam, Netherlands</i></td>
           <td>GreenDIGIT: Towards Environmentally Sustainable Research Infrastructures</td>
