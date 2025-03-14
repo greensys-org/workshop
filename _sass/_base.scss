@@ -24,6 +24,12 @@ hr {
 }
 
 table {
+  thead {
+
+    background-color: var(--global-theme-color);
+    color: $white-color;
+    text-align: center;
+  }
   td,
   th {
     font-size: 1rem;
