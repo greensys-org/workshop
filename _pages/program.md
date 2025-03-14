@@ -35,7 +35,7 @@ nav_order: 4
     th {
       background-color: #32CD32; /* Green header row */
       font-weight: bold;
-      color: white; /* Optional: White text for better contrast */
+      color: black; 
     }
 
     tr:nth-child(even) {
