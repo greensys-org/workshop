@@ -102,7 +102,7 @@ nav_order: 4
     <tr>
       <td>Panel Session</td>
       <td>04:00 - 05:00 PM</td>
-      <td>Panelists</td>
+      <td>Panelists and Audience</td>
       <td>TBA</td>
     </tr>
     <tr>
