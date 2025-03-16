@@ -27,7 +27,7 @@ nav_order: 4
       <td>Prashant Shenoy<br>
         <i>University of Massachusetts, Amherst, USA</i>
       </td>
-      <td>TBA</td>
+      <td>Sustainable Cloud Computing and the Role of AI</td>
     </tr>
     <tr>
       <td>09:45 - 10:30 AM</td>
