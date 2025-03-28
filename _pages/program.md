@@ -24,17 +24,17 @@ nav_order: 4
     <tr>
       <td rowspan="2">Invited Talk <br> Session I</td>
       <td>09:00 - 09:45 AM</td>
-      <td>Prashant Shenoy<br>
-        <i>University of Massachusetts, Amherst, USA</i>
-      </td>
-      <td>Sustainable Cloud Computing and the Role of AI</td>
-    </tr>
-    <tr>
-      <td>09:45 - 10:30 AM</td>
       <td>Ivano Malavolta<br>
         <i>Vrije Universiteit Amsterdam, the Netherlands</i>
       </td>
       <td>Transparency First: Assessing and Reporting the Software Carbon Intensity of Large-Scale AI Systems</td>
+    </tr>
+    <tr>
+      <td>09:45 - 10:30 AM</td>
+      <td>Vittorio Cortellessa<br>
+        <i>Università dell'Aquila, Italy</i>
+      </td>
+      <td>25+ Years of Software Performance: From Integrated System Modeling to AI-Based Runtime Analysis—Any Relation to Sustainability?</td>
     </tr>
     <tr>
       <td><strong>Coffee Break</strong></td>
@@ -45,10 +45,11 @@ nav_order: 4
     <tr>
       <td rowspan="2">Invited Talk <br>Session II</td>
       <td>11:00  - 11:45 AM</td>
-      <td>Vittorio Cortellessa<br>
-        <i>Università dell'Aquila, Italy</i>
+      <td>Prashant Shenoy<br>
+        <i>University of Massachusetts, Amherst, USA</i>
       </td>
-      <td>25+ Years of Software Performance: From Integrated System Modeling to AI-Based Runtime Analysis—Any Relation to Sustainability?</td>
+      <td>Sustainable Cloud Computing and the Role of AI [remote talk]
+</td>
     </tr>
     <tr>
       <td>11:45 - 12:30 PM</td>
