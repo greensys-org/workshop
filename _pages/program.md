@@ -68,7 +68,7 @@ nav_order: 4
       <td>Invited Talk <br>Session III</td>
       <td>02:00 - 02:45 PM</td>
       <td>Thaleia Dimitra Doudali<br>
-        <i>IMEDEA Software Institute, Spain</i>
+        <i>IMDEA Software Institute, Spain</i>
       </td>
       <td>Keep it Simple, Sustainable! When Is ML Necessary in Cloud Resource Management?</td>
     </tr>

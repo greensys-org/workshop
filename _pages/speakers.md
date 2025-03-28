@@ -27,7 +27,7 @@ profiles:
     content: about_thaleia.md
     image_circular: true # crops the image to make it circular
     more_info: >
-      <p>IMEDEA Software Institute</p><br>
+      <p>IMDEA Software Institute</p><br>
       <p>Madrid, Spain</p>
   - align: left
     image: vittorio.jpg
