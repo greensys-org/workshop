@@ -103,7 +103,13 @@ nav_order: 4
       <td>Panel Session</td>
       <td>04:00 - 05:00 PM</td>
       <td>Panelists and Audience</td>
-      <td>TBA</td>
+      <td>
+        <ul>
+          <li><em>AI & Sustainability</em>: Will AI make computing more sustainable?</li>
+          <li><em>Algorithmic Efficiency</em>: Improvement in AI algorithms will make sure the future of AI is sustainable.</li>
+          <li><em>The Market Play</em>: Is sustainable computing real, or just a marketing play?</li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td><strong>Conclusion and Closing Remarks</strong></td>
