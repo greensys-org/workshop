@@ -27,14 +27,14 @@ nav_order: 4
       <td>Ivano Malavolta<br>
         <i>Vrije Universiteit Amsterdam, the Netherlands</i>
       </td>
-      <td>Transparency First: Assessing and Reporting the Software Carbon Intensity of Large-Scale AI Systems<br><a href="/assets/pdf/GreenSys2025_Malavolta.pdf" target="_blank">Slides</a></td>
+      <td>Transparency First: Assessing and Reporting the Software Carbon Intensity of Large-Scale AI Systems<br><a href="{{ base.url }}/assets/pdf/GreenSys2025_Malavolta.pdf" target="_blank">Slides</a></td>
     </tr>
     <tr>
       <td>09:45 - 10:30 AM</td>
       <td>Vittorio Cortellessa<br>
         <i>Università dell'Aquila, Italy</i>
       </td>
-      <td>25+ Years of Software Performance: From Integrated System Modeling to AI-Based Runtime Analysis—Any Relation to Sustainability?<br><a href="/assets/pdf/GreenSys2025_Cortellessa.pdf" target="_blank">Slides</a></td>
+      <td>25+ Years of Software Performance: From Integrated System Modeling to AI-Based Runtime Analysis—Any Relation to Sustainability?<br><a href="{{ base.url }}/assets/pdf/GreenSys2025_Cortellessa.pdf" target="_blank">Slides</a></td>
     </tr>
     <tr>
       <td><strong>Coffee Break</strong></td>
@@ -48,7 +48,7 @@ nav_order: 4
       <td>Prashant Shenoy<br>
         <i>University of Massachusetts, Amherst, USA</i>
       </td>
-      <td>Sustainable Cloud Computing and the Role of AI [remote talk]<br><a href="/assets/pdf/GreenSys2025_Shenoy.pdf" target="_blank">Slides</a>
+      <td>Sustainable Cloud Computing and the Role of AI [remote talk]<br><a href="{{ base.url }}/assets/pdf/GreenSys2025_Shenoy.pdf" target="_blank">Slides</a>
 </td>
     </tr>
     <tr>
@@ -56,7 +56,7 @@ nav_order: 4
       <td>Yuri Demchenko<br>
         <i>University of Amsterdam, the Netherlands</i>
       </td>
-      <td>GreenDIGIT: Towards Environmentally Sustainable Research Infrastructures<br><a href="/assets/pdf/GreenSys2025_Demchenko.pdf" target="_blank">Slides</a></td>
+      <td>GreenDIGIT: Towards Environmentally Sustainable Research Infrastructures<br><a href="{{ base.url }}/assets/pdf/GreenSys2025_Demchenko.pdf" target="_blank">Slides</a></td>
     </tr>
     <tr>
       <td><strong>Lunch Break</strong></td>
@@ -70,7 +70,7 @@ nav_order: 4
       <td>Thaleia Dimitra Doudali<br>
         <i>IMDEA Software Institute, Spain</i>
       </td>
-      <td>Keep it Simple, Sustainable! When Is ML Necessary in Cloud Resource Management?<br><a href="/assets/pdf/GreenSys2025_Doudali.pdf" target="_blank">Slides</a></td>
+      <td>Keep it Simple, Sustainable! When Is ML Necessary in Cloud Resource Management?<br><a href="{{ base.url }}/assets/pdf/GreenSys2025_Doudali.pdf" target="_blank">Slides</a></td>
     </tr>
     <tr>
       <td rowspan="3">Abstract and Lightning <br> Talk Presentations</td>
