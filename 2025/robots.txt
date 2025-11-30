@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: greensys-org.github.io/workshop/2025/sitemap.xml
