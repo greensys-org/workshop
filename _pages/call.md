@@ -65,12 +65,12 @@ At least one author of each submission accepted must register and attend the wor
 
 Since the articles have already been published, they will not be part of the EuroSys or ASPLOS proceedings.
 
-The articles will be listed in the workshop program and GreenSys 2025 participants will have access to the corresponding abstracts and a link to the original journal article.
+The articles will be listed in the workshop program and GreenSys 2026 participants will have access to the corresponding abstracts and a link to the original journal article.
 
 
 ## Important Dates
 
-- Submission Deadline: 19th of February 2025
-- Notification of Acceptance: 22nd of February, 2025
-- Early-bird Author Registration Deadline: 3rd of March 2025
-- Workshop Date: 30th of March
+- Submission Deadline: 19th of February 2026
+- Notification of Acceptance: 22nd of February, 2026
+- Early-bird Author Registration Deadline: 3rd of March 2026
+- Workshop Date: 1st of March

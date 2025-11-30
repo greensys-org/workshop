@@ -35,22 +35,22 @@ carousels:
     </div>
     <div class="row align-items-center">
         <div class="col-12 col-md-3">
-            <strong>Co-located with:</strong> <br> <a href="https://2025.eurosys.org">EuroSys 2025</a>
+            <strong>Co-located with:</strong> <br> <a href="https://2026.eurosys.org/">EuroSys 2026</a>
         </div>
         <div class="col-12 col-md-3">
-            <strong>Date:</strong> <br> 30th of March 2025
+            <strong>Date:</strong> <br> 1st of April 2026 (TBD)
         </div>
         <div class="col-12 col-md-3">
-            <strong>Location:</strong> <br> Rotterdam, Netherlands
+            <strong>Location:</strong> <br> Edinburgh, Scotland
         </div>
         <div class="col-12 col-md-3">
-            <strong>Submission:</strong> <br> 19th of February 2025
+            <strong>Submission:</strong> <br> 19th of February 2026 (TBD)
         </div>
     </div>
 </div>
 
 
-The GreenSys workshop, colocated with EuroSys 2025, aims to foster dialogue between systems and Artificial Intelligence (AI) researchers to identify solutions to key sustainability challenges in AI, 
+The GreenSys workshop, colocated with EuroSys 2026, aims to foster dialogue between systems and Artificial Intelligence (AI) researchers to identify solutions to key sustainability challenges in AI, 
 ensuring a more sustainable future for AI development and deployment.
 
 The rapid expansion of Machine Learning (ML) and AI applications has brought significant sustainability challenges. These advanced computational models,
@@ -60,7 +60,7 @@ The sustainability of large-scale AI systems is particularly challenging due to 
 This variability necessitates innovative approaches to enhance energy and carbon efficiency throughout the AI model lifecycle. Addressing these challenges requires advancements in AI algorithms,
  hardware, and runtime systems that oversee complex cyber-physical infrastructures. Solutions must be data-driven and incorporate cross-layer optimization across models, hardware, software stacks, and energy sources.
 
-GreenSys 2025  will feature:
+GreenSys 2026  will feature:
 
 1. **Invited Talks:** Presentations from leading industry practitioners and academic researchers. 
 2. **Journal-First Presentations:** Showcasing cutting-edge research published in top-tier journals.
