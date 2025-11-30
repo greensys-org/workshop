@@ -6,14 +6,14 @@ nav_order: 1
 social: true
 carousels:
   - images: 
-    - image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Oude_Haven_%28Rotterdam%29_2011.jpg/1024px-Oude_Haven_%28Rotterdam%29_2011.jpg?20110930163625
-      attribution: Michiel1972, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
-    - image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/RotterdamMaasNederland.jpg/1024px-RotterdamMaasNederland.jpg?20091003151625
-      attribution: Massimo Catarinella, CC BY 3.0 <https://creativecommons.org/licenses/by/3.0>, via Wikimedia Commons
-    - image: https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/01_Rotterdam_-_Euromast.jpg/1024px-01_Rotterdam_-_Euromast.jpg?2017021518262
-      attribution: W. Bulach, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
-    - image: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Rotterdam%2C_The_Netherlands_%2815253271799%29.jpg/1024px-Rotterdam%2C_The_Netherlands_%2815253271799%29.jpg?20171024025652
-      attribution: Rick Ligthelm from Rotterdam, The Netherlands, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons
+    - image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Edinburgh_Castle_from_the_North.JPG/2560px-Edinburgh_Castle_from_the_North.JPG
+      attribution: Kim Traynor, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
+    - image: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Arthurs_seat_edinburgh.jpg/2560px-Arthurs_seat_edinburgh.jpg
+      attribution: Tilmandralle, Public Domain
+    - image: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Holyrood_Palace_and_Abbey.jpg/2560px-Holyrood_Palace_and_Abbey.jpg
+      attribution: Saffron Blaze, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
+    - image: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Edinburgh_Calton_Hill.jpg/2560px-Edinburgh_Calton_Hill.jpg
+      attribution: Saffron Blaze, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons
 ---
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
