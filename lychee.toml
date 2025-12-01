@@ -1,0 +1,9 @@
+[basic]
+# Skip file:// links and flaky domains that time out in CI
+scheme = ["http", "https", "mailto"]
+exclude = [
+  "https://www.ivanomalavolta.com/"
+]
+
+[request]
+timeout = 20
