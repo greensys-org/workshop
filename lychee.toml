@@ -1,0 +1,13 @@
+[basic]
+# Only check network/mailto links; skip local file:// references
+scheme = ["http", "https", "mailto"]
+# Ignore flaky or not-yet-live endpoints and unsupported data URIs
+exclude = [
+  "^data:",
+  "https://www\\.ivanomalavolta\\.com/?.*",
+  "https://greensys-org\\.github\\.io/workshop/2025.*",
+  "https://www\\.linkedin\\.com/company/greensys-workshop"
+]
+
+[request]
+timeout = 20

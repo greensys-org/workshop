@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: greensys-org.github.io/workshop/sitemap.xml
+Sitemap: https://greensys-org.github.io/workshop/sitemap.xml
