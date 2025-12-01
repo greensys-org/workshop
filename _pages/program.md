@@ -2,12 +2,13 @@
 layout: page
 permalink: /program/
 title: Wokshop Program
-description: 
+description:
 nav: true
 nav_order: 4
 ---
 
 <!-- ## Workshop Program -->
+
 - **Location:** Leeuwen room I
 - **Date and Time:** March 30th, 9:00 AM - 5:00 PM
 
@@ -120,4 +121,3 @@ nav_order: 4
     </tr>
   </tbody>
 </table>
-

@@ -21,7 +21,7 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>Vrije Universiteit Amsterdam</p><br>
-      <p>Amsterdam, The Netherlands</p> 
+      <p>Amsterdam, The Netherlands</p>
   - align: left
     image: thaleia.jpg
     content: about_thaleia.md
@@ -35,12 +35,12 @@ profiles:
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>University of L'Aquila</p><br>
-      <p>L'Aquila, Italy</p> 
+      <p>L'Aquila, Italy</p>
   - align: left
     image: yuri.jpg
     content: about_yuri.md
     image_circular: true # crops the image to make it circular
     more_info: >
       <p>University of Amsterdam</p><br>
-      <p>Amsterdam, The Netherlands</p> 
+      <p>Amsterdam, The Netherlands</p>
 ---

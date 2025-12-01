@@ -5,8 +5,8 @@
 title: >
   GreenSys: 2nd International Workshop on Systems and Methods for Sustainable Large-Scale AI
 first_name: GreenSys 2026 # the website first name
-middle_name: 
-last_name: 
+middle_name:
+last_name:
 email: greensysorg@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Website for the 2nd International Workshop on Systems and Methods for Sustainable Large-Scale AI (GreenSys'26) co-located with EuroSys 2026.
@@ -94,7 +94,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid:  # your Google Scholar ID
+scholar_userid: # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
