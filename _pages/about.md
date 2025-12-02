@@ -38,13 +38,13 @@ carousels:
             <strong>Co-located with:</strong> <br> <a href="https://2026.eurosys.org/">EuroSys 2026</a>
         </div>
         <div class="col-12 col-md-3">
-            <strong>Date:</strong> <br> 1st of April 2026 (TBD)
+            <strong>Date:</strong> <br> 27th April 2026 (TBC)
         </div>
         <div class="col-12 col-md-3">
             <strong>Location:</strong> <br> Edinburgh, Scotland
         </div>
         <div class="col-12 col-md-3">
-            <strong>Submission:</strong> <br> 19th of February 2026 (TBD)
+            <strong>Submission:</strong> <br> 5th of February 2026 (TBC)
         </div>
     </div>
 </div>
