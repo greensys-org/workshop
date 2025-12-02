@@ -62,7 +62,9 @@ hardware, and runtime systems that oversee complex cyber-physical infrastructure
 GreenSys 2026 will feature:
 
 1. **Invited Talks:** Presentations from leading industry practitioners and academic researchers.
-2. **Journal-First Presentations:** Showcasing cutting-edge research published in top-tier journals.
-3. **Panel Discussion:** Engaging conversations on the latest trends and future directions in sustainable AI.
+2. **Workshop Proceedings:** Presentations of  accepted papers from workshop.
+3. **Lightning Talks:**  Short presentations showcasing emerging ideas, provocative visions, or lessons learned from practice. 
 
-Join us at GreenSys in Rotterdam to contribute to the conversation and drive innovation towards a greener AI future.
+
+
+Join us at GreenSys in Edinburgh to contribute to the conversation and drive innovation towards a greener AI future.
