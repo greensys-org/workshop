@@ -396,7 +396,8 @@ imagemagick:
     - 800
     - 1400
   input_directories:
-    - assets/img/
+    - assets/img/ # current site assets
+    - 2025/assets/img/ # keep archive assets working while they live under /2025
   input_formats:
     - ".jpg"
     - ".jpeg"
