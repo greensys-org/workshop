@@ -197,19 +197,30 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
-.profile {
+.profile,
+.profile-card {
   width: 100%;
 
   .more-info {
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin: 0.4rem 0;
     font-family: monospace;
+    font-size: 0.95rem;
+    line-height: 1.4;
 
     p {
-      display: inline-block;
+      display: block;
       margin: 0;
     }
   }
+}
+
+.profile-name {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.profile-about {
+  font-size: 0.95rem;
 }
 
 .profile.float-right {

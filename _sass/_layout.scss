@@ -31,10 +31,112 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
-// Profile
-.profile {
-  img {
-    width: 100%;
+// Profile grid
+.profiles-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  align-items: stretch;
+  grid-auto-rows: 1fr;
+
+  @media (min-width: 1100px) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.profile-card {
+  padding: 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  background-color: var(--global-bg-color);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  height: 100%;
+}
+
+.profile-card figure {
+  margin: 0;
+}
+
+.email-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.email-link {
+  word-break: break-word;
+}
+
+.email-copy {
+  border: 1px solid var(--global-divider-color);
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  border-radius: 6px;
+  padding: 0.1rem 0.35rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+
+.copy-toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: var(--global-theme-color);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  font-size: 0.9rem;
+  z-index: 1050;
+}
+
+.copy-toast.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  max-width: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.profiles-section {
+  margin-bottom: 2.5rem;
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+}
+
+.profile-list {
+  padding-left: 1.2rem;
+  margin: 0;
+
+  li {
+    margin-bottom: 0.6rem;
+    line-height: 1.5;
+  }
+
+  .profile-list-name {
+    font-weight: 600;
+  }
+
+  .profile-list-affiliation {
+    color: var(--global-text-color);
   }
 }
 

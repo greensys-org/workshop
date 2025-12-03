@@ -3,34 +3,118 @@ layout: page
 ---
 <div class="post">
   <article>
-    {% if page.profiles %}
-      {% for profile in page.profiles %}
-        <hr>
-        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
-          {% if profile.image %}
-            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-            {% if profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-            {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
-            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+    {% assign sections = page.sections %}
+    {% if sections %}
+      {% for section in sections %}
+        <section class="profiles-section">
+          {% if section.title %}
+            <h2>{{ section.title }}</h2>
           {% endif %}
-          {% if profile.more_info %}
-            <div class="more-info">{{ profile.more_info }}</div>
-          {% endif %}
-        </div>
+          {% assign template = section.template | default: 'grid' %}
 
-        <div class="clearfix">
-          {% if profile.content %}
-            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-            {{ profile_content | markdownify }}
+          {% if template == 'list' %}
+            {% if section.items %}
+              <ul class="profile-list">
+                {% for item in section.items %}
+                  <li>
+                    {% if item.url %}
+                      <span class="profile-list-name"><a href="{{ item.url }}">{{ item.name }}</a></span>
+                    {% else %}
+                      <span class="profile-list-name">{{ item.name }}</span>
+                    {% endif %}
+                    {% if item.affiliation %}
+                      <span class="profile-list-affiliation">({{ item.affiliation }})</span>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
           {% else %}
-            {{ content }}
+            {% assign show_name = section.show_name %}
+            {% if show_name == nil %}{% assign show_name = page.show_name %}{% endif %}
+            {% assign show_content = section.show_content %}
+            {% if show_content == nil %}{% assign show_content = page.show_content %}{% endif %}
+            <div class="profiles-grid">
+              {% for profile in section.profiles %}
+                <div class="profile-card">
+                  {% if profile.image %}
+                    {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                    {% if profile.image_circular %}
+                      {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle profile-photo' %}
+                    {% else %}
+                      {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-photo' %}
+                    {% endif %}
+                    {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.2}}px, (min-width: 576px) 20vw, 60vw"{% endcapture %}
+                    {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+                  {% endif %}
+                  {% if profile.name and show_name != false %}
+                    <div class="profile-name">
+                      {% if profile.link %}
+                        <a href="{{ profile.link }}">{{ profile.name }}</a>
+                      {% else %}
+                        {{ profile.name }}
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                  {% if profile.email %}
+                    <div class="email-row">
+                      <a class="email-link" href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+                      <button class="email-copy" type="button" data-email="{{ profile.email }}" aria-label="Copy email">
+                        ⧉
+                      </button>
+                    </div>
+                  {% endif %}
+                  {% if profile.more_info %}
+                    <div class="more-info">{{ profile.more_info }}</div>
+                  {% endif %}
+                  {% if profile.content and show_content != false %}
+                    <div class="profile-about">
+                      {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+                      {{ profile_content | markdownify }}
+                    </div>
+                  {% endif %}
+                </div>
+              {% endfor %}
+            </div>
           {% endif %}
-        </div>
+        </section>
       {% endfor %}
     {% endif %}
   </article>
 </div>
+
+<script>
+  (function () {
+    const toast = document.createElement('div');
+    toast.className = 'copy-toast';
+    toast.textContent = 'Copied';
+    document.body.appendChild(toast);
+
+    function showToast() {
+      toast.classList.add('visible');
+      setTimeout(() => toast.classList.remove('visible'), 1600);
+    }
+
+    document.addEventListener('click', async (event) => {
+      const button = event.target.closest('.email-copy');
+      if (!button) return;
+      const email = button.dataset.email;
+      if (!email) return;
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(email);
+        } else {
+          const tmp = document.createElement('textarea');
+          tmp.value = email;
+          document.body.appendChild(tmp);
+          tmp.select();
+          document.execCommand('copy');
+          document.body.removeChild(tmp);
+        }
+        showToast();
+      } catch (e) {
+        console.error('Copy failed', e);
+      }
+    });
+  })();
+</script>
