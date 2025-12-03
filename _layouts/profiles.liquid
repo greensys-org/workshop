@@ -56,6 +56,14 @@ layout: page
                       {% endif %}
                     </div>
                   {% endif %}
+                  {% if profile.email %}
+                    <div class="email-row">
+                      <a class="email-link" href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+                      <button class="email-copy" type="button" data-email="{{ profile.email }}" aria-label="Copy email">
+                        ⧉
+                      </button>
+                    </div>
+                  {% endif %}
                   {% if profile.more_info %}
                     <div class="more-info">{{ profile.more_info }}</div>
                   {% endif %}
@@ -74,3 +82,39 @@ layout: page
     {% endif %}
   </article>
 </div>
+
+<script>
+  (function () {
+    const toast = document.createElement('div');
+    toast.className = 'copy-toast';
+    toast.textContent = 'Copied';
+    document.body.appendChild(toast);
+
+    function showToast() {
+      toast.classList.add('visible');
+      setTimeout(() => toast.classList.remove('visible'), 1600);
+    }
+
+    document.addEventListener('click', async (event) => {
+      const button = event.target.closest('.email-copy');
+      if (!button) return;
+      const email = button.dataset.email;
+      if (!email) return;
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          await navigator.clipboard.writeText(email);
+        } else {
+          const tmp = document.createElement('textarea');
+          tmp.value = email;
+          document.body.appendChild(tmp);
+          tmp.select();
+          document.execCommand('copy');
+          document.body.removeChild(tmp);
+        }
+        showToast();
+      } catch (e) {
+        console.error('Copy failed', e);
+      }
+    });
+  })();
+</script>

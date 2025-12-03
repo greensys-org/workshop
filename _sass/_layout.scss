@@ -61,6 +61,51 @@ body.sticky-bottom-footer {
   margin: 0;
 }
 
+.email-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.email-link {
+  word-break: break-word;
+}
+
+.email-copy {
+  border: 1px solid var(--global-divider-color);
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  border-radius: 6px;
+  padding: 0.1rem 0.35rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  line-height: 1.2;
+}
+
+.copy-toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: var(--global-theme-color);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  font-size: 0.9rem;
+  z-index: 1050;
+}
+
+.copy-toast.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
 .profile-photo {
   width: 120px;
   height: 120px;
