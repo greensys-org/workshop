@@ -25,40 +25,40 @@ sections:
         image: ale.jpg
         name: Alessandro Tundo
         link: https://alessandrotundo.me
-        email: alessandro.tundo@tuwien.ac.at
         content: about_ale.md
         image_circular: true # crops the image to make it circular
         more_info: >
+          <p><a href="mailto:alessandro.tundo@tuwien.ac.at">Email</a></p><br>
           <p>TU Wien</p><br>
           <p>Vienna, Austria</p>
       - align: left
         image: ivona.jpg
         name: Ivona Brandić
         link: https://www.ec.tuwien.ac.at/~ivona/
-        email: ivona.brandic@tuwien.ac.at
         content: about_ivona.md
         image_circular: true # crops the image to make it circular
         more_info: >
+          <p><a href="mailto:ivona.brandic@tuwien.ac.at">Email</a></p><br>
           <p>TU Wien</p><br>
           <p>Vienna, Austria</p>
       - align: left
         image: ezio.jpg
         name: Ezio Bartocci
         link: https://www.eziobartocci.com/
-        email: ezio.bartocci@tuwien.ac.at
         content: about_ezio.md
         image_circular: true # crops the image to make it circular
         more_info: >
+          <p><a href="mailto:ezio.bartocci@tuwien.ac.at">Email</a></p><br>
           <p>TU Wien</p><br>
           <p>Vienna, Austria</p>
       - align: left
         image: leo.jpg
         name: Leonardo Mariani
         link: https://en.unimib.it/leonardo-mariani
-        email: leonardo.mariani@unimib.it
         content: about_leo.md
         image_circular: true # crops the image to make it circular
         more_info: >
+          <p><a href="mailto:leonardo.mariani@unimib.it">Email</a></p><br>
           <p>University of Milano-Bicocca</p><br>
           <p>Milan, Italy</p>
 
