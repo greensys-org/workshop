@@ -1,6 +1,6 @@
 ---
 layout: profiles
-permalink: /oranizing-committee/
+permalink: /organizing-committee/
 title: Organizing Committee
 nav: true
 nav_order: 5
