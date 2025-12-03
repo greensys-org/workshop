@@ -1,7 +1,7 @@
 ---
 layout: profiles
-permalink: /organizing-committee/
-title: Organizing Committee
+permalink: /committee/
+title: Committee
 nav: true
 nav_order: 5
 
