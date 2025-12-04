@@ -17,7 +17,7 @@ sections:
         link: https://shashikantilager.com/
         email: s.s.ilager@uva.nl
         content: about_shashi.md
-        image_circular: true # crops the image to make it circularp
+        image_circular: true # crops the image to make it circular
         more_info: >
           <p>University of Amsterdam</p><br>
           <p>Amsterdam, Netherlands</p>
@@ -32,6 +32,22 @@ sections:
         more_info: >
           <p>University of California, Riverside</p><br>
           <p>Riverside, USA</p>
+
+  - title: Web Chair
+    template: grid
+    show_name: true
+    profiles:
+      - align: left
+        image: goncalo.jpeg
+        name: Gonçalo Ferreira
+        link: https://goncalof.dev/
+        email: g.j.teixeiradepinhoferreira@uva.nl
+        content: about_goncalo.md
+        image_circular: true
+        more_info: >
+            <p>University of Amsterdam</p><br>
+            <p>Amsterdam, Netherlands</p>
+
 
   # - title: Program Committee (TBR)
   #   template: list
