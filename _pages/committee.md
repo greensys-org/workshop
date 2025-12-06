@@ -31,6 +31,11 @@ sections:
         more_info: >
           <p>University of California, Riverside</p><br>
 
+
+  - title: Program Committee (TBU)
+    template: list
+    items:
+
   - title: Web Chair
     template: grid
     show_name: true
