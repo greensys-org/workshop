@@ -31,80 +31,80 @@ sections:
         more_info: >
           <p>University of California, Riverside, USA</p><br>
 
-  - title: Technical Program Committee
+  - title: Technical Program Committee (TPC)
     template: grid
     show_name: true
     profiles:
       - align: left
-      image: profile_pic.jpg
-      name: Walid A. Hanafy
-      link: https://people.cs.umass.edu/~whanafy/
-      email: whanafy@cs.umass.edu
-      # content: <to_be_filled.md>
-      image_circular: true
-      more_info: >
-        <p>UMass Amherst, USA</p><br>
+        image: profile_blank.jpg
+        name: Walid A. Hanafy
+        link: https://people.cs.umass.edu/~whanafy/
+        email: whanafy@cs.umass.edu
+        # content: <to_be_filled.md>
+        image_circular: true
+        more_info: >
+          <p>UMass Amherst, USA</p><br>
       
       - align: left
-      image: profile_pic.jpg
-      name: Lilly Wu
-      link: https://www.cics.umass.edu/about/directory/lilly-wu
-      email: liwu@cs.umass.edu
-      # content: <to_be_filled.md>
-      image_circular: true
-      more_info: >
-        <p>UMass Amherst, USA</p><br>
+        image: profile_blank.jpg
+        name: Lilly Wu
+        link: https://www.cics.umass.edu/about/directory/lilly-wu
+        email: liwu@cs.umass.edu
+        # content: <to_be_filled.md>
+        image_circular: true
+        more_info: >
+          <p>UMass Amherst, USA</p><br>
       
       - align: left
-      image: profile_pic.jpg
-      name: Mohammad Goudarzy
-      link: https://research.monash.edu/en/persons/mohammad-goudarzi/
-      email: Mohammad.Goudarzi@monash.edu
-      # content: <to_be_filled.md>
-      image_circular: true
-      more_info: >
-        <p>Monash University, Australia</p><br>
+        image: profile_blank.jpg
+        name: Mohammad Goudarzy
+        link: https://research.monash.edu/en/persons/mohammad-goudarzi/
+        email: Mohammad.Goudarzi@monash.edu
+        # content: <to_be_filled.md>
+        image_circular: true
+        more_info: >
+          <p>Monash University, Australia</p><br>
       
       - align: left
-      image: profile_pic.jpg
-      name: Abel Souza
-      link: https://asouza.io/
-      email: absouza@ucsc.edu
-      # content: <to_be_filled.md>
-      image_circular: true
-      more_info: >
-        <p>UC Santa Cruz, USA</p><br>
+        image: profile_blank.jpg
+        name: Abel Souza
+        link: https://asouza.io/
+        email: absouza@ucsc.edu
+        # content: <to_be_filled.md>
+        image_circular: true
+        more_info: >
+          <p>UC Santa Cruz, USA</p><br>
   
       - align: left
-      image: profile_pic.jpg
-      name: Mohammad A. Islam
-      link: https://www.uta.edu/academics/faculty/profile?user=mislam
-      email: mislam@uta.edu
-      # content: <to_be_filled.md>
-      image_circular: true
-      more_info: >
-        <p>UT Arlington, USA</p><br>
+        image: profile_blank.jpg
+        name: Mohammad A. Islam
+        link: https://www.uta.edu/academics/faculty/profile?user=mislam
+        email: mislam@uta.edu
+        # content: <to_be_filled.md>
+        image_circular: true
+        more_info: >
+          <p>UT Arlington, USA</p><br>
       
       - align: left
-      image: profile_pic.jpg
-      name: Noman Bashir
-      link: https://noman-bashir.github.io/
-      email: nbashir@mit.edu
-      # content: <to_be_filled.md>
-      image_circular: true
-      more_info: >
-        <p>MIT, USA</p><br>
-      
+        image: profile_blank.jpg
+        name: Noman Bashir
+        link: https://noman-bashir.github.io/
+        email: nbashir@mit.edu
+        # content: <to_be_filled.md>
+        image_circular: true
+        more_info: >
+          <p>MIT, USA</p><br>
+        
       # Nicolas Christianson: Stanford/JHU, USA
       - align: left
-      image: profile_pic.jpg
-      name: Nicolas Christianson
-      link: https://nicochristianson.com/
-      email: nchristi@caltech.edu
-      # content: <to_be_filled.md>
-      image_circular: true
-      more_info: >
-        <p>Stanford/JHU, USA</p><br>
+        image: profile_blank.jpg
+        name: Nicolas Christianson
+        link: https://nicochristianson.com/
+        email: nchristi@caltech.edu
+        # content: <to_be_filled.md>
+        image_circular: true
+        more_info: >
+          <p>Stanford/JHU, USA</p><br>
 
 
   - title: Program Committee (TBU)
