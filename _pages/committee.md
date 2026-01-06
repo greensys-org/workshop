@@ -126,7 +126,7 @@ sections:
         # more_info: >
           # <p>Stanford/JHU, USA</p><br>
          # Nicolas Christianson: Stanford/JHU, USA
-      - name: Te be updated ...
+      - name: To be updated ...
         # url: https://nicochristianson.com/
         # affiliation: Stanford/JHU, USA
         # image: profile_blank.jpg
