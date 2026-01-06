@@ -43,7 +43,7 @@ At least one author of each submission accepted must register and attend the wor
 
 ## Important Dates
 
-- Submission Deadline: 5th February, 2026
-- Notification of Acceptance:  20th February, 2026
+- Submission Deadline: 14th February, 2026
+- Notification of Acceptance:  12th March, 2026
 - Early-bird Author Registration Deadline: TBD
 - Workshop Date: TBD
