@@ -55,7 +55,7 @@ sections:
         # more_info: >
           # <p>UMass Amherst, USA</p><br>
       
-      - name: Mohammad Goudarzy
+      - name: Mohammad Goudarzi
         url: https://research.monash.edu/en/persons/mohammad-goudarzi/
         affiliation: Monash University, Australia
         # image: profile_blank.jpg
@@ -94,7 +94,18 @@ sections:
         # image_circular: true
         # more_info: >
           # <p>MIT, USA</p><br>
-        
+      
+      # Nicolas Christianson: Stanford/JHU, USA
+      - name: Dolly Sapra
+        url: https://sites.google.com/view/dolly-sapra/
+        affiliation: UvA, The Netherlands
+        # image: profile_blank.jpg
+        # email: nchristi@caltech.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>Stanford/JHU, USA</p><br>
+
       # Nicolas Christianson: Stanford/JHU, USA
       - name: Nicolas Christianson
         url: https://nicochristianson.com/
@@ -105,11 +116,30 @@ sections:
         # image_circular: true
         # more_info: >
           # <p>Stanford/JHU, USA</p><br>
+      - name: Pengfei Li
+        url: https://people.rit.edu/pflics/
+        affiliation: RIT, USA
+        # image: profile_blank.jpg
+        # email: nchristi@caltech.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>Stanford/JHU, USA</p><br>
+         # Nicolas Christianson: Stanford/JHU, USA
+      - name: Te be updated ...
+        # url: https://nicochristianson.com/
+        # affiliation: Stanford/JHU, USA
+        # image: profile_blank.jpg
+        # email: nchristi@caltech.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>Stanford/JHU, USA</p><br>
 
 
-  - title: Program Committee (TBU)
-    template: list
-    items:
+  # - title: Program Committee (TBU)
+  #   template: list
+  #   items:
 
   - title: Web Chair
     template: grid
