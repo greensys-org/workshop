@@ -32,79 +32,79 @@ sections:
           <p>University of California, Riverside, USA</p><br>
 
   - title: Technical Program Committee (TPC)
-    template: grid
+    template: list
     show_name: true
-    profiles:
-      - align: left
-        image: profile_blank.jpg
-        name: Walid A. Hanafy
-        link: https://people.cs.umass.edu/~whanafy/
-        email: whanafy@cs.umass.edu
+    items:
+      - name: Walid A. Hanafy
+        url: https://people.cs.umass.edu/~whanafy/
+        affiliation: UMass Amherst, USA
+        # image: profile_blank.jpg
+        # email: whanafy@cs.umass.edu
         # content: <to_be_filled.md>
-        image_circular: true
-        more_info: >
-          <p>UMass Amherst, USA</p><br>
+        # image_circular: true
+        # more_info: >
+          # <p>UMass Amherst, USA</p><br>
       
-      - align: left
-        image: profile_blank.jpg
-        name: Lilly Wu
-        link: https://www.cics.umass.edu/about/directory/lilly-wu
-        email: liwu@cs.umass.edu
+      - name: Lilly Wu
+        url: https://www.cics.umass.edu/about/directory/lilly-wu
+        affiliation: UMass Amherst, USA
+        # image: profile_blank.jpg
+        # email: liwu@cs.umass.edu
         # content: <to_be_filled.md>
-        image_circular: true
-        more_info: >
-          <p>UMass Amherst, USA</p><br>
+        # image_circular: true
+        # more_info: >
+          # <p>UMass Amherst, USA</p><br>
       
-      - align: left
-        image: profile_blank.jpg
-        name: Mohammad Goudarzy
-        link: https://research.monash.edu/en/persons/mohammad-goudarzi/
-        email: Mohammad.Goudarzi@monash.edu
+      - name: Mohammad Goudarzy
+        url: https://research.monash.edu/en/persons/mohammad-goudarzi/
+        affiliation: Monash University, Australia
+        # image: profile_blank.jpg
+        # email: Mohammad.Goudarzi@monash.edu
         # content: <to_be_filled.md>
-        image_circular: true
-        more_info: >
-          <p>Monash University, Australia</p><br>
+        # image_circular: true
+        # more_info: >
+          # <p>Monash University, Australia</p><br>
       
-      - align: left
-        image: profile_blank.jpg
-        name: Abel Souza
-        link: https://asouza.io/
-        email: absouza@ucsc.edu
+      - name: Abel Souza
+        url: https://asouza.io/
+        affiliation: UC Santa Cruz, USA
+        # image: profile_blank.jpg
+        # email: absouza@ucsc.edu
         # content: <to_be_filled.md>
-        image_circular: true
-        more_info: >
-          <p>UC Santa Cruz, USA</p><br>
+        # image_circular: true
+        # more_info: >
+          # <p>UC Santa Cruz, USA</p><br>
   
-      - align: left
-        image: profile_blank.jpg
-        name: Mohammad A. Islam
-        link: https://www.uta.edu/academics/faculty/profile?user=mislam
-        email: mislam@uta.edu
+      - name: Mohammad A. Islam
+        url: https://www.uta.edu/academics/faculty/profile?user=mislam
+        affiliation: UT Arlington, USA
+        # image: profile_blank.jpg
+        # email: mislam@uta.edu
         # content: <to_be_filled.md>
-        image_circular: true
-        more_info: >
-          <p>UT Arlington, USA</p><br>
+        # image_circular: true
+        # more_info: >
+          # <p>UT Arlington, USA</p><br>
       
-      - align: left
-        image: profile_blank.jpg
-        name: Noman Bashir
-        link: https://noman-bashir.github.io/
-        email: nbashir@mit.edu
+      - name: Noman Bashir
+        url: https://noman-bashir.github.io/
+        affiliation: MIT, USA
+        # image: profile_blank.jpg
+        # email: nbashir@mit.edu
         # content: <to_be_filled.md>
-        image_circular: true
-        more_info: >
-          <p>MIT, USA</p><br>
+        # image_circular: true
+        # more_info: >
+          # <p>MIT, USA</p><br>
         
       # Nicolas Christianson: Stanford/JHU, USA
-      - align: left
-        image: profile_blank.jpg
-        name: Nicolas Christianson
-        link: https://nicochristianson.com/
-        email: nchristi@caltech.edu
+      - name: Nicolas Christianson
+        url: https://nicochristianson.com/
+        affiliation: Stanford/JHU, USA
+        # image: profile_blank.jpg
+        # email: nchristi@caltech.edu
         # content: <to_be_filled.md>
-        image_circular: true
-        more_info: >
-          <p>Stanford/JHU, USA</p><br>
+        # image_circular: true
+        # more_info: >
+          # <p>Stanford/JHU, USA</p><br>
 
 
   - title: Program Committee (TBU)
