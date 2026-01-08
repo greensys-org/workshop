@@ -44,7 +44,16 @@ sections:
         # image_circular: true
         # more_info: >
           # <p>UMass Amherst, USA</p><br>
-      
+      - name: Lauritz Thamsen 
+        url: https://lauritzthamsen.org/
+        affiliation: University of  Glasgow, Scotland
+        # image: profile_blank.jpg
+        # email: liwu@cs.umass.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>UMass Amherst, USA</p><br>
+
       - name: Lilly Wu
         url: https://www.cics.umass.edu/about/directory/lilly-wu
         affiliation: UMass Amherst, USA
@@ -125,7 +134,18 @@ sections:
         # image_circular: true
         # more_info: >
           # <p>Stanford/JHU, USA</p><br>
-         # Nicolas Christianson: Stanford/JHU, USA
+        
+
+      - name: Yi Ding
+        url: https://y-ding.github.io/
+        affiliation: Purdue ECE, USA
+        # image: profile_blank.jpg
+        # email: nchristi@caltech.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>Stanford/JHU, USA</p><br>
+
       - name: To be updated ...
         # url: https://nicochristianson.com/
         # affiliation: Stanford/JHU, USA
@@ -136,11 +156,19 @@ sections:
         # more_info: >
           # <p>Stanford/JHU, USA</p><br>
 
-
-  # - title: Program Committee (TBU)
-  #   template: list
-  #   items:
-
+  - title: Publicity Chair
+    template: grid
+    show_name: true
+    profiles:
+      - align: left
+        image: srini.jpeg
+        name: Srinivasan Subramaniyan
+        link: https://srinivasans74.github.io/index.html
+        email: subramaniyan.4@buckeyemail.osu.edu
+        # content: about_goncalo.md
+        image_circular: true
+        more_info: >
+            <p>The Ohio State University, USA</p><br>
   - title: Web Chair
     template: grid
     show_name: true
