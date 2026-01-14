@@ -83,7 +83,16 @@ sections:
         # image_circular: true
         # more_info: >
           # <p>UC Santa Cruz, USA</p><br>
-  
+
+      - name: Thaleia Dimitra Doudali
+        url: https://thaleia-dimitradoudali.github.io/
+        affiliation: IMDEA Software Institute, Spain.
+        # image: profile_blank.jpg
+        # email: absouza@ucsc.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>UC Santa Cruz, USA</p><br>
       - name: Mohammad A. Islam
         url: https://www.uta.edu/academics/faculty/profile?user=mislam
         affiliation: UT Arlington, USA
@@ -146,7 +155,16 @@ sections:
         # more_info: >
           # <p>Stanford/JHU, USA</p><br>
 
-      - name: To be updated ...
+      - name: Philipp Wiesner
+        url: https://philippwiesner.org/
+        affiliation: TU Berlin, Germany
+        # image: profile_blank.jpg
+        # email: absouza@ucsc.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>UC Santa Cruz, USA</p><br>
+      - name:  ...
         # url: https://nicochristianson.com/
         # affiliation: Stanford/JHU, USA
         # image: profile_blank.jpg

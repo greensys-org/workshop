@@ -21,23 +21,23 @@ We invite authors to submit research contributions across all areas of sustainab
 - Carbon-aware LLM Life Cycle Management
 - Software engineering practices for energy-aware AI
 - AI for energy-efficient systems
-- Analysis of environmetnal impact of AI
+- Analysis of environmental impact of AI
+
+## Submission Guidelines
 
 
-## Submission
+Authors are invited to submit original and unpublished research papers to GreenSys '26 describing work that is not currently under review at other venues. We especially welcome innovative, early-stage ideas and preliminary results.
 
-<!-- Submissions must be done electronically via [HotCRP](To be updated) and include: -->
-Submissions must be done electronically via HotCRP. Link: TBU.
+Submissions must be formatted as PDF files using the latest ACM sigconf proceedings template (10-pt font, double-column) and **must not exceed 6 pages**, including references. This workshop follows a single-blind review process; therefore, the first page must include author names, affiliations, and contact information.
 
+All submissions will undergo independent peer review, and accepted papers will be published in the ACM Digital Library. 
 
-<!-- 
-## Evaluation
-
-All submissions will be reviewed by the reviwers committee with the aim to accept all qualifying submissions subject to ability to accommodate them in the program. If needed, priority will be given to submissions according to their fit with the scope of the workshop. -->
+Submissions must be done electronically via HotCRP [https://greensys26.hotcrp.com/](https://greensys26.hotcrp.com/)
+<!-- All submissions will be reviewed by the reviwers committee with the aim to accept all qualifying submissions subject to ability to accommodate them in the program. If needed, priority will be given to submissions according to their fit with the scope of the workshop. --> 
 
 ## Attendance and Presentation
 
-At least one author of each submission accepted must register and attend the workshop to present the article. The author needs a workshop registration to present the journal article.
+Please note that at least one author of each accepted paper is required to register and present the work at the workshop for it to be included in the proceedings. 
 
 <!-- The articles will be listed in the workshop program and GreenSys 2026 participants will have access to the corresponding abstracts and a link to the original journal article. -->
 
