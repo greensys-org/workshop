@@ -14,14 +14,18 @@ We invite contributions to the workshop proceedings. The workshop aims to provid
 
 We invite authors to submit research contributions across all areas of sustainable AI. Topics of interest include energy-aware training and inference methods, carbon-conscious large-scale AI systems, and studies analyzing the environmental impacts of AI—such as water usage, energy consumption, and carbon footprints. We also welcome work on platforms and architectures designed for sustainable computing. Specific topics include, but are not limited to
 
-- Sustainable AI
-- Energy-efficient AI MLOps
-- Power and Carbon-aware workload Management
-- Data Center Optimizations 
-- Carbon-aware LLM Life Cycle Management
-- Software engineering practices for energy-aware AI
-- AI for energy-efficient systems
-- Analysis of environmental impact of AI
+- Sustainable AI Systems
+- Energy-Efficient AIOps
+- Power-Aware Workload Management
+- Dynamic Inference Orchestration
+- Hardware-Software Co-design Methods
+- AI on Resource-Constrained Edge Devices
+- Data Center Optimizations for AI Workloads
+- Analysis of Environmental impact of AI (Energy, Water, and Carbon Footprints)
+- Software Engineering Practices for Energy-Aware AI
+- Carbon-Aware LLM Lifecycle Management
+
+
 
 ## Submission Guidelines
 
