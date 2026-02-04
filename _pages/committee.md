@@ -164,6 +164,15 @@ sections:
         # image_circular: true
         # more_info: >
           # <p>UC Santa Cruz, USA</p><br>
+      - name: Abhishek Dharmaratnakar,
+        url: https://www.linkedin.com/in/abhid95
+        affiliation:  Google, USA
+        # image: profile_blank.jpg
+        # email: absouza@ucsc.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>UC Santa Cruz, USA</p><br>
       - name:  ...
         # url: https://nicochristianson.com/
         # affiliation: Stanford/JHU, USA

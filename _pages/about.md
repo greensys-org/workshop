@@ -44,7 +44,7 @@ carousels:
             <strong>Location:</strong> <br> Edinburgh, Scotland
         </div>
         <div class="col-12 col-md-3">
-            <strong>Submission:</strong> <br> 5th of February 2026 (TBC)
+            <strong>Submission:</strong> <br> 24th of February 2026 
         </div>
     </div>
 </div>

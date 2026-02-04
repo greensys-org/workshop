@@ -29,7 +29,6 @@ We invite authors to submit research contributions across all areas of sustainab
 
 ## Submission Guidelines
 
-
 Authors are invited to submit original and unpublished research papers to GreenSys '26 describing work that is not currently under review at other venues. We especially welcome innovative, early-stage ideas and preliminary results.
 
 Submissions must be formatted as PDF files using the latest ACM sigconf proceedings template (10-pt font, double-column) and **must not exceed 6 pages**, including references. This workshop follows a single-blind review process; therefore, the first page must include author names, affiliations, and contact information.
@@ -47,7 +46,7 @@ Please note that at least one author of each accepted paper is required to regis
 
 ## Important Dates
 
-- Submission Deadline: 14th February, 2026
+- Submission Deadline: ~~14th February~~, ** 24th Februray ** 2026
 - Notification of Acceptance:  12th March, 2026
 - Early-bird Author Registration Deadline: TBD
 - Workshop Date: TBD
