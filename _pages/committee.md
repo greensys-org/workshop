@@ -154,16 +154,6 @@ sections:
             image_circular: true
             more_info: >
                 <p>University of Amsterdam, Netherlands</p><br>
-          
-          - align: left
-            image: goncalo.jpeg
-            name: Gonçalo Ferreira
-            link: https://goncalof.com/
-            email: g.j.teixeiradepinhoferreira@uva.nl
-            # content: about_goncalo.md
-            image_circular: true
-            more_info: >
-                <p>University of Amsterdam, Netherlands</p><br>
 
   # - title: Publicity Chairs
   #   template: grid
