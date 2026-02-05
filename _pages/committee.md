@@ -137,9 +137,19 @@ sections:
 
   - title: Row
     sections:
-      - title: Program Committee (TBU)
-        template: list
-        items:
+      - title: Publicity Chair
+        template: grid
+        show_name: true
+        profiles:
+          - align: left
+            image: srini.jpeg
+            name: Srinivasan Subramaniyan
+            link: https://srinivasans74.github.io/index.html
+            email: subramaniyan.4@buckeyemail.osu.edu
+            # content: about_goncalo.md
+            image_circular: true
+            more_info: >
+                <p>The Ohio State University, USA</p><br>
 
       - title: Web Chair
         template: grid
