@@ -35,36 +35,6 @@ sections:
     template: list
     show_name: true
     items:
-      - name: Walid A. Hanafy
-        url: https://people.cs.umass.edu/~whanafy/
-        affiliation: UMass Amherst, USA
-        # image: profile_blank.jpg
-        # email: whanafy@cs.umass.edu
-        # content: <to_be_filled.md>
-        # image_circular: true
-        # more_info: >
-          # <p>UMass Amherst, USA</p><br>
-      
-      - name: Lilly Wu
-        url: https://www.cics.umass.edu/about/directory/lilly-wu
-        affiliation: UMass Amherst, USA
-        # image: profile_blank.jpg
-        # email: liwu@cs.umass.edu
-        # content: <to_be_filled.md>
-        # image_circular: true
-        # more_info: >
-          # <p>UMass Amherst, USA</p><br>
-      
-      - name: Mohammad Goudarzy
-        url: https://research.monash.edu/en/persons/mohammad-goudarzi/
-        affiliation: Monash University, Australia
-        # image: profile_blank.jpg
-        # email: Mohammad.Goudarzi@monash.edu
-        # content: <to_be_filled.md>
-        # image_circular: true
-        # more_info: >
-          # <p>Monash University, Australia</p><br>
-      
       - name: Abel Souza
         url: https://asouza.io/
         affiliation: UC Santa Cruz, USA
@@ -74,7 +44,29 @@ sections:
         # image_circular: true
         # more_info: >
           # <p>UC Santa Cruz, USA</p><br>
-  
+
+      - name: Abhishek Dharmaratnakar
+        url: https://www.linkedin.com/in/abhid95/
+        affiliation: Google, USA
+
+      - name: Dolly Sapra
+        url: https://www.uva.nl/en/profile/s/a/d.sapra2/d.sapra.html
+        affiliation: UvA, The Netherlands
+
+      - name: Lauritz Thamsen
+        url: https://lauritzthamsen.org/
+        affiliation: University of Glasgow, Scotland
+
+      - name: Lilly Wu
+        url: https://www.cics.umass.edu/about/directory/lilly-wu
+        affiliation: UMass Amherst, USA
+        # image: profile_blank.jpg
+        # email: liwu@cs.umass.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>UMass Amherst, USA</p><br>
+
       - name: Mohammad A. Islam
         url: https://www.uta.edu/academics/faculty/profile?user=mislam
         affiliation: UT Arlington, USA
@@ -84,17 +76,17 @@ sections:
         # image_circular: true
         # more_info: >
           # <p>UT Arlington, USA</p><br>
-      
-      - name: Noman Bashir
-        url: https://noman-bashir.github.io/
-        affiliation: MIT, USA
+
+      - name: Mohammad Goudarzi
+        url: https://research.monash.edu/en/persons/mohammad-goudarzi/
+        affiliation: Monash University, Australia
         # image: profile_blank.jpg
-        # email: nbashir@mit.edu
+        # email: Mohammad.Goudarzi@monash.edu
         # content: <to_be_filled.md>
         # image_circular: true
         # more_info: >
-          # <p>MIT, USA</p><br>
-        
+          # <p>Monash University, Australia</p><br>
+
       # Nicolas Christianson: Stanford/JHU, USA
       - name: Nicolas Christianson
         url: https://nicochristianson.com/
@@ -105,6 +97,42 @@ sections:
         # image_circular: true
         # more_info: >
           # <p>Stanford/JHU, USA</p><br>
+
+      - name: Noman Bashir
+        url: https://noman-bashir.github.io/
+        affiliation: MIT, USA
+        # image: profile_blank.jpg
+        # email: nbashir@mit.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>MIT, USA</p><br>
+
+      - name: Pengfei Li
+        url: https://www.rit.edu/directory/pflics-pengfei-li
+        affiliation: RIT, USA
+
+      - name: Philipp Wiesner
+        url: https://philippwiesner.org/
+        affiliation: TU Berlin, Germany
+
+      - name: Thaleia Dimitra Doudali
+        url: https://thaleia-dimitradoudali.github.io/
+        affiliation: IMDEA Software Institute, Spain
+
+      - name: Walid A. Hanafy
+        url: https://people.cs.umass.edu/~whanafy/
+        affiliation: UMass Amherst, USA
+        # image: profile_blank.jpg
+        # email: whanafy@cs.umass.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>UMass Amherst, USA</p><br>
+
+      - name: Yi Ding
+        url: https://y-ding.github.io/
+        affiliation: Purdue ECE, USA
 
 
   - title: Program Committee (TBU)
