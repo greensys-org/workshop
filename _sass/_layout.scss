@@ -55,6 +55,7 @@ body.sticky-bottom-footer {
   align-items: center;
   gap: 0.4rem;
   height: 100%;
+  width: 100%;
 }
 
 .profile-card figure {
@@ -67,11 +68,13 @@ body.sticky-bottom-footer {
   align-items: center;
   justify-content: center;
   gap: 0.35rem;
+  flex-wrap: wrap;
   font-size: 0.95rem;
 }
 
 .email-link {
   word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .email-copy {
@@ -127,11 +130,14 @@ body.sticky-bottom-footer {
     display: flex;
     gap: 1.5rem;
     flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
   }
 
   .profiles-subsection {
-    flex: 1 1 320px;
-    min-width: 320px;
+    // Fixed card width to stay consistent across breakpoints
+    flex: 0 0 360px;
+    max-width: 360px;
   }
 
   .profiles-subsection h3 {
@@ -141,7 +147,7 @@ body.sticky-bottom-footer {
   // Match default profile grid sizing within row subsections
   .profiles-grid {
     width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: 1fr;
   }
 }
 

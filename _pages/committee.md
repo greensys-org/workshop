@@ -35,18 +35,40 @@ sections:
     template: list
     show_name: true
     items:
-      - name: Walid A. Hanafy
-        url: https://people.cs.umass.edu/~whanafy/
-        affiliation: UMass Amherst, USA
+      - name: Abel Souza
+        url: https://asouza.io/
+        affiliation: UC Santa Cruz, USA
         # image: profile_blank.jpg
-        # email: whanafy@cs.umass.edu
+        # email: absouza@ucsc.edu
         # content: <to_be_filled.md>
         # image_circular: true
         # more_info: >
-          # <p>UMass Amherst, USA</p><br>
+          # <p>UC Santa Cruz, USA</p><br>
+
+      - name: Abhishek Dharmaratnakar
+        url: https://www.linkedin.com/in/abhid95/
+        affiliation: Google, USA
+        # image: profile_blank.jpg
+        # email: absouza@ucsc.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>UC Santa Cruz, USA</p><br>
+
+      # Nicolas Christianson: Stanford/JHU, USA
+      - name: Dolly Sapra
+        url: https://www.uva.nl/en/profile/s/a/d.sapra2/d.sapra.html
+        affiliation: UvA, The Netherlands
+        # image: profile_blank.jpg
+        # email: nchristi@caltech.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>Stanford/JHU, USA</p><br>
+
       - name: Lauritz Thamsen 
         url: https://lauritzthamsen.org/
-        affiliation: University of  Glasgow, Scotland
+        affiliation: University of Glasgow, Scotland
         # image: profile_blank.jpg
         # email: liwu@cs.umass.edu
         # content: <to_be_filled.md>
@@ -63,36 +85,7 @@ sections:
         # image_circular: true
         # more_info: >
           # <p>UMass Amherst, USA</p><br>
-      
-      - name: Mohammad Goudarzi
-        url: https://research.monash.edu/en/persons/mohammad-goudarzi/
-        affiliation: Monash University, Australia
-        # image: profile_blank.jpg
-        # email: Mohammad.Goudarzi@monash.edu
-        # content: <to_be_filled.md>
-        # image_circular: true
-        # more_info: >
-          # <p>Monash University, Australia</p><br>
-      
-      - name: Abel Souza
-        url: https://asouza.io/
-        affiliation: UC Santa Cruz, USA
-        # image: profile_blank.jpg
-        # email: absouza@ucsc.edu
-        # content: <to_be_filled.md>
-        # image_circular: true
-        # more_info: >
-          # <p>UC Santa Cruz, USA</p><br>
 
-      - name: Thaleia Dimitra Doudali
-        url: https://thaleia-dimitradoudali.github.io/
-        affiliation: IMDEA Software Institute, Spain.
-        # image: profile_blank.jpg
-        # email: absouza@ucsc.edu
-        # content: <to_be_filled.md>
-        # image_circular: true
-        # more_info: >
-          # <p>UC Santa Cruz, USA</p><br>
       - name: Mohammad A. Islam
         url: https://www.uta.edu/academics/faculty/profile?user=mislam
         affiliation: UT Arlington, USA
@@ -111,18 +104,7 @@ sections:
         # content: <to_be_filled.md>
         # image_circular: true
         # more_info: >
-          # <p>MIT, USA</p><br>
-      
-      # Nicolas Christianson: Stanford/JHU, USA
-      - name: Dolly Sapra
-        url: https://sites.google.com/view/dolly-sapra/
-        affiliation: UvA, The Netherlands
-        # image: profile_blank.jpg
-        # email: nchristi@caltech.edu
-        # content: <to_be_filled.md>
-        # image_circular: true
-        # more_info: >
-          # <p>Stanford/JHU, USA</p><br>
+          # <p>Monash University, Australia</p><br>
 
       # Nicolas Christianson: Stanford/JHU, USA
       - name: Nicolas Christianson
@@ -134,8 +116,19 @@ sections:
         # image_circular: true
         # more_info: >
           # <p>Stanford/JHU, USA</p><br>
+
+      - name: Noman Bashir
+        url: https://noman-bashir.github.io/
+        affiliation: MIT, USA
+        # image: profile_blank.jpg
+        # email: nbashir@mit.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>MIT, USA</p><br>
+
       - name: Pengfei Li
-        url: https://people.rit.edu/pflics/
+        url: https://www.rit.edu/directory/pflics-pengfei-li
         affiliation: RIT, USA
         # image: profile_blank.jpg
         # email: nchristi@caltech.edu
@@ -144,6 +137,36 @@ sections:
         # more_info: >
           # <p>Stanford/JHU, USA</p><br>
         
+
+      - name: Philipp Wiesner
+        url: https://philippwiesner.org/
+        affiliation: TU Berlin, Germany
+        # image: profile_blank.jpg
+        # email: absouza@ucsc.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>UC Santa Cruz, USA</p><br>
+
+      - name: Thaleia Dimitra Doudali
+        url: https://thaleia-dimitradoudali.github.io/
+        affiliation: IMDEA Software Institute, Spain
+        # image: profile_blank.jpg
+        # email: absouza@ucsc.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>UC Santa Cruz, USA</p><br>
+
+      - name: Walid A. Hanafy
+        url: https://people.cs.umass.edu/~whanafy/
+        affiliation: UMass Amherst, USA
+        # image: profile_blank.jpg
+        # email: whanafy@cs.umass.edu
+        # content: <to_be_filled.md>
+        # image_circular: true
+        # more_info: >
+          # <p>UMass Amherst, USA</p><br>
 
       - name: Yi Ding
         url: https://y-ding.github.io/
@@ -155,24 +178,6 @@ sections:
         # more_info: >
           # <p>Stanford/JHU, USA</p><br>
 
-      - name: Philipp Wiesner
-        url: https://philippwiesner.org/
-        affiliation: TU Berlin, Germany
-        # image: profile_blank.jpg
-        # email: absouza@ucsc.edu
-        # content: <to_be_filled.md>
-        # image_circular: true
-        # more_info: >
-          # <p>UC Santa Cruz, USA</p><br>
-      - name: Abhishek Dharmaratnakar,
-        url: https://www.linkedin.com/in/abhid95
-        affiliation:  Google, USA
-        # image: profile_blank.jpg
-        # email: absouza@ucsc.edu
-        # content: <to_be_filled.md>
-        # image_circular: true
-        # more_info: >
-          # <p>UC Santa Cruz, USA</p><br>
       - name:  ...
         # url: https://nicochristianson.com/
         # affiliation: Stanford/JHU, USA
@@ -182,33 +187,34 @@ sections:
         # image_circular: true
         # more_info: >
           # <p>Stanford/JHU, USA</p><br>
-
-  - title: Publicity Chair
-    template: grid
-    show_name: true
-    profiles:
-      - align: left
-        image: srini.jpeg
-        name: Srinivasan Subramaniyan
-        link: https://srinivasans74.github.io/index.html
-        email: subramaniyan.4@buckeyemail.osu.edu
-        # content: about_goncalo.md
-        image_circular: true
-        more_info: >
-            <p>The Ohio State University, USA</p><br>
-  - title: Web Chair
-    template: grid
-    show_name: true
-    profiles:
-      - align: left
-        image: goncalo.jpeg
-        name: Gonçalo Ferreira
-        link: https://goncalof.com/
-        email: g.j.teixeiradepinhoferreira@uva.nl
-        # content: about_goncalo.md
-        image_circular: true
-        more_info: >
-            <p>University of Amsterdam, Netherlands</p><br>
+  - title: Row
+    sections:
+      - title: Publicity Chair
+        template: grid
+        show_name: true
+        profiles:
+          - align: left
+            image: srini.jpeg
+            name: Srinivasan Subramaniyan
+            link: https://srinivasans74.github.io/index.html
+            email: subramaniyan.4@buckeyemail.osu.edu
+            # content: about_goncalo.md
+            image_circular: true
+            more_info: >
+                <p>The Ohio State University, USA</p><br>
+      - title: Web Chair
+        template: grid
+        show_name: true
+        profiles:
+          - align: left
+            image: goncalo.jpeg
+            name: Gonçalo Ferreira
+            link: https://goncalof.com/
+            email: g.j.teixeiradepinhoferreira@uva.nl
+            # content: about_goncalo.md
+            image_circular: true
+            more_info: >
+                <p>University of Amsterdam, Netherlands</p><br>
 
 
   # - title: Program Committee (TBR)
