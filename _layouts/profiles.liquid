@@ -6,78 +6,163 @@ layout: page
     {% assign sections = page.sections %}
     {% if sections %}
       {% for section in sections %}
-        <section class="profiles-section">
-          {% if section.title %}
-            <h2>{{ section.title }}</h2>
-          {% endif %}
-          {% assign template = section.template | default: 'grid' %}
-
-          {% if template == 'list' %}
-            {% if section.items %}
-              <ul class="profile-list">
-                {% for item in section.items %}
-                  <li>
-                    {% if item.url %}
-                      <span class="profile-list-name"><a href="{{ item.url }}">{{ item.name }}</a></span>
-                    {% else %}
-                      <span class="profile-list-name">{{ item.name }}</span>
-                    {% endif %}
-                    {% if item.affiliation %}
-                      <span class="profile-list-affiliation">({{ item.affiliation }})</span>
-                    {% endif %}
-                  </li>
-                {% endfor %}
-              </ul>
+        {% assign child_sections = section.sections %}
+        {% if child_sections %}
+          <section class="profiles-section profiles-row">
+            {% if section.title and section.title != "Row" %}
+              <h2>{{ section.title }}</h2>
             {% endif %}
-          {% else %}
-            {% assign show_name = section.show_name %}
-            {% if show_name == nil %}{% assign show_name = page.show_name %}{% endif %}
-            {% assign show_content = section.show_content %}
-            {% if show_content == nil %}{% assign show_content = page.show_content %}{% endif %}
-            <div class="profiles-grid">
-              {% for profile in section.profiles %}
-                <div class="profile-card">
-                  {% if profile.image %}
-                    {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-                    {% if profile.image_circular %}
-                      {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle profile-photo' %}
-                    {% else %}
-                      {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-photo' %}
+            <div class="profiles-row-inner">
+              {% for sub in child_sections %}
+                <div class="profiles-subsection">
+                  {% if sub.title %}
+                    <h3>{{ sub.title }}</h3>
+                  {% endif %}
+                  {% assign template = sub.template | default: 'grid' %}
+
+                  {% if template == 'list' %}
+                    {% if sub.items %}
+                      <ul class="profile-list">
+                        {% for item in sub.items %}
+                          <li>
+                            {% if item.url %}
+                              <span class="profile-list-name"><a href="{{ item.url }}">{{ item.name }}</a></span>
+                            {% else %}
+                              <span class="profile-list-name">{{ item.name }}</span>
+                            {% endif %}
+                            {% if item.affiliation %}
+                              <span class="profile-list-affiliation">({{ item.affiliation }})</span>
+                            {% endif %}
+                          </li>
+                        {% endfor %}
+                      </ul>
                     {% endif %}
-                    {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.2}}px, (min-width: 576px) 20vw, 60vw"{% endcapture %}
-                    {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
-                  {% endif %}
-                  {% if profile.name and show_name != false %}
-                    <div class="profile-name">
-                      {% if profile.link %}
-                        <a href="{{ profile.link }}">{{ profile.name }}</a>
-                      {% else %}
-                        {{ profile.name }}
-                      {% endif %}
-                    </div>
-                  {% endif %}
-                  {% if profile.email %}
-                    <div class="email-row">
-                      <a class="email-link" href="mailto:{{ profile.email }}">{{ profile.email }}</a>
-                      <button class="email-copy" type="button" data-email="{{ profile.email }}" aria-label="Copy email">
-                        ⧉
-                      </button>
-                    </div>
-                  {% endif %}
-                  {% if profile.more_info %}
-                    <div class="more-info">{{ profile.more_info }}</div>
-                  {% endif %}
-                  {% if profile.content and show_content != false %}
-                    <div class="profile-about">
-                      {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-                      {{ profile_content | markdownify }}
+                  {% else %}
+                    {% assign show_name = sub.show_name %}
+                    {% if show_name == nil %}{% assign show_name = page.show_name %}{% endif %}
+                    {% assign show_content = sub.show_content %}
+                    {% if show_content == nil %}{% assign show_content = page.show_content %}{% endif %}
+                    <div class="profiles-grid">
+                      {% for profile in sub.profiles %}
+                        <div class="profile-card">
+                          {% if profile.image %}
+                            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                            {% if profile.image_circular %}
+                              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle profile-photo' %}
+                            {% else %}
+                              {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-photo' %}
+                            {% endif %}
+                            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.2}}px, (min-width: 576px) 20vw, 60vw"{% endcapture %}
+                            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+                          {% endif %}
+                          {% if profile.name and show_name != false %}
+                            <div class="profile-name">
+                              {% if profile.link %}
+                                <a href="{{ profile.link }}">{{ profile.name }}</a>
+                              {% else %}
+                                {{ profile.name }}
+                              {% endif %}
+                            </div>
+                          {% endif %}
+                          {% if profile.email %}
+                            <div class="email-row">
+                              <a class="email-link" href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+                              <button class="email-copy" type="button" data-email="{{ profile.email }}" aria-label="Copy email">
+                                ⧉
+                              </button>
+                            </div>
+                          {% endif %}
+                          {% if profile.more_info %}
+                            <div class="more-info">{{ profile.more_info }}</div>
+                          {% endif %}
+                          {% if profile.content and show_content != false %}
+                            <div class="profile-about">
+                              {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+                              {{ profile_content | markdownify }}
+                            </div>
+                          {% endif %}
+                        </div>
+                      {% endfor %}
                     </div>
                   {% endif %}
                 </div>
               {% endfor %}
             </div>
-          {% endif %}
-        </section>
+          </section>
+        {% else %}
+          <section class="profiles-section">
+            {% if section.title and section.title != "Row" %}
+              <h2>{{ section.title }}</h2>
+            {% endif %}
+            {% assign template = section.template | default: 'grid' %}
+
+            {% if template == 'list' %}
+              {% if section.items %}
+                <ul class="profile-list">
+                  {% for item in section.items %}
+                    <li>
+                      {% if item.url %}
+                        <span class="profile-list-name"><a href="{{ item.url }}">{{ item.name }}</a></span>
+                      {% else %}
+                        <span class="profile-list-name">{{ item.name }}</span>
+                      {% endif %}
+                      {% if item.affiliation %}
+                        <span class="profile-list-affiliation">({{ item.affiliation }})</span>
+                      {% endif %}
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            {% else %}
+              {% assign show_name = section.show_name %}
+              {% if show_name == nil %}{% assign show_name = page.show_name %}{% endif %}
+              {% assign show_content = section.show_content %}
+              {% if show_content == nil %}{% assign show_content = page.show_content %}{% endif %}
+              <div class="profiles-grid">
+                {% for profile in section.profiles %}
+                  <div class="profile-card">
+                    {% if profile.image %}
+                      {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                      {% if profile.image_circular %}
+                        {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle profile-photo' %}
+                      {% else %}
+                        {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-photo' %}
+                      {% endif %}
+                      {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.2}}px, (min-width: 576px) 20vw, 60vw"{% endcapture %}
+                      {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+                    {% endif %}
+                    {% if profile.name and show_name != false %}
+                      <div class="profile-name">
+                        {% if profile.link %}
+                          <a href="{{ profile.link }}">{{ profile.name }}</a>
+                        {% else %}
+                          {{ profile.name }}
+                        {% endif %}
+                      </div>
+                    {% endif %}
+                    {% if profile.email %}
+                      <div class="email-row">
+                        <a class="email-link" href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+                        <button class="email-copy" type="button" data-email="{{ profile.email }}" aria-label="Copy email">
+                          ⧉
+                        </button>
+                      </div>
+                    {% endif %}
+                    {% if profile.more_info %}
+                      <div class="more-info">{{ profile.more_info }}</div>
+                    {% endif %}
+                    {% if profile.content and show_content != false %}
+                      <div class="profile-about">
+                        {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+                        {{ profile_content | markdownify }}
+                      </div>
+                    {% endif %}
+                  </div>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </section>
+        {% endif %}
       {% endfor %}
     {% endif %}
   </article>

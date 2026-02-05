@@ -102,12 +102,12 @@ sections:
         # image_circular: true
         # more_info: >
           # <p>UT Arlington, USA</p><br>
-      
-      - name: Noman Bashir
-        url: https://noman-bashir.github.io/
-        affiliation: MIT, USA
+
+      - name: Mohammad Goudarzi
+        url: https://research.monash.edu/en/persons/mohammad-goudarzi/
+        affiliation: Monash University, Australia
         # image: profile_blank.jpg
-        # email: nbashir@mit.edu
+        # email: Mohammad.Goudarzi@monash.edu
         # content: <to_be_filled.md>
         # image_circular: true
         # more_info: >
