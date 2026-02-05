@@ -35,12 +35,14 @@ body.sticky-bottom-footer {
 .profiles-grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+  justify-content: flex-start;
+  justify-items: center;
   align-items: stretch;
   grid-auto-rows: 1fr;
 
   @media (min-width: 1100px) {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
   }
 }
 
@@ -55,7 +57,8 @@ body.sticky-bottom-footer {
   align-items: center;
   gap: 0.4rem;
   height: 100%;
-  width: 100%;
+  width: 200px;
+  max-width: 200px;
 }
 
 .profile-card figure {
@@ -153,11 +156,13 @@ body.sticky-bottom-footer {
   // Match default profile grid sizing within row subsections
   .profiles-grid {
     width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+    justify-content: center;
+    justify-items: center;
   }
 
   .profile-card {
-    // width: 320px;
+    width: 200px;
     max-width: 200px;
   }
 }
