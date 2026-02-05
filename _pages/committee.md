@@ -135,23 +135,50 @@ sections:
         affiliation: Purdue ECE, USA
 
 
-  - title: Program Committee (TBU)
-    template: list
-    items:
+  - title: Row
+    sections:
+      - title: Program Committee (TBU)
+        template: list
+        items:
 
-  - title: Web Chair
-    template: grid
-    show_name: true
-    profiles:
-      - align: left
-        image: goncalo.jpeg
-        name: Gonçalo Ferreira
-        link: https://goncalof.com/
-        email: g.j.teixeiradepinhoferreira@uva.nl
-        # content: about_goncalo.md
-        image_circular: true
-        more_info: >
-            <p>University of Amsterdam, Netherlands</p><br>
+      - title: Web Chair
+        template: grid
+        show_name: true
+        profiles:
+          - align: left
+            image: goncalo.jpeg
+            name: Gonçalo Ferreira
+            link: https://goncalof.com/
+            email: g.j.teixeiradepinhoferreira@uva.nl
+            # content: about_goncalo.md
+            image_circular: true
+            more_info: >
+                <p>University of Amsterdam, Netherlands</p><br>
+          
+          - align: left
+            image: goncalo.jpeg
+            name: Gonçalo Ferreira
+            link: https://goncalof.com/
+            email: g.j.teixeiradepinhoferreira@uva.nl
+            # content: about_goncalo.md
+            image_circular: true
+            more_info: >
+                <p>University of Amsterdam, Netherlands</p><br>
+
+  # - title: Publicity Chairs
+  #   template: grid
+  #   show_name: true
+  #   profiles:
+  #     - align: left
+  #       # image: profile_blank.jpg
+  #       name: Srinivasan Subramaniyan
+  #       # link: <add personal page>
+  #       # email: <add email>
+  #       # content: <to_be_filled.md>
+  #       image_circular: true
+  #       more_info: >
+  #           <p>The Ohio State University, USA</p><br>
+
 
 
   # - title: Program Committee (TBR)
