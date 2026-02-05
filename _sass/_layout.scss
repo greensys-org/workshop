@@ -128,16 +128,22 @@ body.sticky-bottom-footer {
 .profiles-row {
   .profiles-row-inner {
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .profiles-subsection {
-    // Fixed card width to stay consistent across breakpoints
-    flex: 0 0 360px;
-    max-width: 360px;
+    flex: 0 0 auto;
+    min-width: 0;
+  }
+
+  @media (max-width: 700px) {
+    .profiles-subsection {
+      flex: 0 0 auto;
+      min-width: 0;
+    }
   }
 
   .profiles-subsection h3 {
@@ -147,7 +153,12 @@ body.sticky-bottom-footer {
   // Match default profile grid sizing within row subsections
   .profiles-grid {
     width: 100%;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .profile-card {
+    // width: 320px;
+    max-width: 200px;
   }
 }
 
