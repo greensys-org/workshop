@@ -178,7 +178,7 @@ sections:
         # more_info: >
           # <p>Stanford/JHU, USA</p><br>
 
-      - name:  ...
+      # - name:  ...
         # url: https://nicochristianson.com/
         # affiliation: Stanford/JHU, USA
         # image: profile_blank.jpg
