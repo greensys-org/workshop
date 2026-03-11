@@ -47,6 +47,6 @@ Please note that at least one author of each accepted paper is required to regis
 ## Important Dates
 
 - Submission Deadline: ~~14th February~~, ** 24th Februray ** 2026
-- Notification of Acceptance:  12th March, 2026
+- Notification of Acceptance:  ~~12th March~~, ** 16th March ** 2026
 - Early-bird Author Registration Deadline: TBD
-- Workshop Date: TBD
+- Workshop Date: April 27th, 2026. 
