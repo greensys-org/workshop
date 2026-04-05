@@ -1,0 +1,3 @@
+<p class="talk-title-line"><strong>Talk Title:</strong> Un/sustainable computing: what can we do about it? <a href="{{ '/speakers/loic-lannelongue/' | relative_url }}" target="_blank" rel="noopener">[Details]</a></p>
+
+**Bio:** Loic Lannelongue is an Assistant Research Professor in the Department of Public Health and Primary Care at the University of Cambridge, where he leads the Cambridge Sustainable Computing Lab. His research focuses on understanding and reducing the environmental impact of computing, including tools and frameworks for sustainable computational science. He is also known for leading the Green Algorithms initiative and for work at the intersection of sustainable computing, machine learning, and biomedical data science.

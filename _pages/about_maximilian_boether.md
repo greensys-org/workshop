@@ -1,0 +1,3 @@
+<p class="talk-title-line"><strong>Talk Title:</strong> Efficient data mixing and loading for foundation model training <a href="{{ '/speakers/maximilian-boether/' | relative_url }}" target="_blank" rel="noopener">[Details]</a></p>
+
+**Bio:** Maximilian Boether is a Ph.D. student at ETH Zurich and a Member of Technical Staff at DatologyAI. At ETH, he is part of the Systems Group and the Efficient Architectures and Systems Lab (EASL), supervised by Ana Klimovic and Gustavo Alonso. His research interests lie at the intersection of systems and data-centric AI. He has published at venues such as SIGMOD, VLDB, MLSys, and ICLR, and contributed to Apertus, Switzerland's national LLM.
