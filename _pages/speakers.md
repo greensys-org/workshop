@@ -1,50 +1,62 @@
 ---
-layout: profiles
+layout: page
 permalink: /speakers/
 title: Speakers
-# title: TBD
-
 nav: true
 nav_order: 3
+---
+
+<style>
+  .speakers-profile .more-info {
+    text-align: center;
+  }
+
+  .talk-title-line {
+    color: #d96b1f;
+    font-weight: 700;
+  }
+</style>
+
+<hr>
+<div class="profile float-left speakers-profile">
+  {% include figure.liquid loading="eager" path="assets/img/loic_lannelongue.jpg" class="img-fluid z-depth-1 rounded-circle" alt="Loic Lannelongue" %}
+  <div class="more-info">
+    <p>University of Cambridge, UK</p>
+  </div>
+</div>
+
+<div class="clearfix">
+  <p><strong><a href="https://www.jesus.cam.ac.uk/people/loic-lannelongue" target="_blank" rel="noopener"> <font size="5">Loic Lannelongue</font></a></strong></p>
+  {% capture loic_content %}{% include_relative about_loic_lannelongue.md %}{% endcapture %}
+  {{ loic_content | markdownify }}
+</div>
+
+<hr>
+<div class="profile float-left speakers-profile">
+  {% include figure.liquid loading="eager" path="assets/img/edoardo_ponti.jpeg" class="img-fluid z-depth-1 rounded-circle" alt="Edoardo M. Ponti" %}
+  <div class="more-info">
+    <p>University of Edinburgh, UK</p>
+  </div>
+</div>
+
+<div class="clearfix">
+  <p><strong><a href="https://ducdauge.github.io/" target="_blank" rel="noopener"> <font size="5">Edoardo M. Ponti</font></a></strong></p>
+  {% capture edoardo_content %}{% include_relative about_edoardo_ponti.md %}{% endcapture %}
+  {{ edoardo_content | markdownify }}
+</div>
 
 
+<div class="profile float-left speakers-profile">
+  {% include figure.liquid loading="eager" path="assets/img/maximilian_boether.jpg" class="img-fluid z-depth-1 rounded-circle" alt="Maximilian Boether" %}
+  <div class="more-info">
+    <p>ETH Zurich and DatologyAI</p>
+  </div>
+</div>
 
-# profiles:
-#   # if you want to include more than one profile, just replicate the following block
-#   # and create one content file for each profile inside _pages/
-#   - align: left
-#     image: prashant.jpg
-#     content: about_prashant.md
-#     image_circular: true # crops the image to make it circular
-#     more_info: >
-#       <p>University of Massachusetts</p><br>
-#       <p>Amherst, USA</p>
-#   - align: left
-#     image: ivano.jpg
-#     content: about_ivano.md
-#     image_circular: true # crops the image to make it circular
-#     more_info: >
-#       <p>Vrije Universiteit Amsterdam</p><br>
-#       <p>Amsterdam, The Netherlands</p>
-#   - align: left
-#     image: thaleia.jpg
-#     content: about_thaleia.md
-#     image_circular: true # crops the image to make it circular
-#     more_info: >
-#       <p>IMDEA Software Institute</p><br>
-#       <p>Madrid, Spain</p>
-#   - align: left
-#     image: vittorio.jpg
-#     content: about_vittorio.md
-#     image_circular: true # crops the image to make it circular
-#     more_info: >
-#       <p>University of L'Aquila</p><br>
-#       <p>L'Aquila, Italy</p>
-#   - align: left
-#     image: yuri.jpg
-#     content: about_yuri.md
-#     image_circular: true # crops the image to make it circular
-#     more_info: >
-#       <p>University of Amsterdam</p><br>
-#       <p>Amsterdam, The Netherlands</p>
-# ---
+<div class="clearfix">
+  <p><strong><a href="https://mboether.com/" target="_blank" rel="noopener"> <font size="5">Maximilian Boether</font></a></strong></p>
+  {% capture maximilian_content %}{% include_relative about_maximilian_boether.md %}{% endcapture %}
+  {{ maximilian_content | markdownify }}
+</div>
+
+<hr>

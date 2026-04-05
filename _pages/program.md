@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /program/
-title: Wokshop Program
+permalink: /program-old/
+title: Workshop Program Draft
 # title: TBD
 description:
-nav: true
+nav: false
 nav_order: 4
 ---
 

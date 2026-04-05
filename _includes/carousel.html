@@ -28,7 +28,13 @@
     <div class="carousel__track">
       <ul>
         {% for item in page.carousels[number].images %}
-        <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
+        {% assign carousel_image = item.image %}
+        {% unless item.image contains '://' %}
+          {% assign carousel_image = item.image | relative_url %}
+        {% endunless %}
+        <li class="carousel__slide" style="background-image: url('{{ carousel_image }}');">
+          <div class="carousel__overlay"></div>
+        </li>
         <span class="carousel__credits"> {{ item.attribution }}</span>
         {% endfor %}
       </ul>
@@ -163,6 +169,17 @@
     position: absolute;
     opacity: 0;
     overflow: hidden;
+    filter: saturate(1.08) contrast(1.05);
+  }
+  .carousel__overlay {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.12) 0%,
+      rgba(0, 0, 0, 0.18) 55%,
+      rgba(0, 0, 0, 0.35) 100%
+    );
   }
   .carousel__slide .overlay {height: 100%;}
   .carousel--thumb .carousel__indicator {
@@ -173,10 +190,18 @@
     background-color: #fafafa;
   }
   .carousel__credits {
-    display: block;
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
     font-size: 0.8em;
     color: #fafafa;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 0.35rem 0.6rem;
+    border-radius: 999px;
+    backdrop-filter: blur(3px);
+    z-index: 2;
+    max-width: calc(100% - 2rem);
   }
   {% for item in page.carousels[number].images %}
   .carousel__slide:nth-of-type({{ forloop.index }}),
