@@ -33,6 +33,20 @@ nav_order: 3
 
 <hr>
 <div class="profile float-left speakers-profile">
+  {% include figure.liquid loading="eager" path="assets/img/pierre_jacquet.jpg" class="img-fluid z-depth-1 rounded-circle" alt="Pierre Jacquet" %}
+  <div class="more-info">
+    <p>Universite du Quebec (ETS Montreal, Canada) and OVHcloud</p>
+  </div>
+</div>
+
+<div class="clearfix">
+  <p><strong><a href="https://jacquetpi.github.io/" target="_blank" rel="noopener"> <font size="5">Pierre Jacquet</font></a></strong></p>
+  {% capture pierre_content %}{% include_relative about_nic_lane.md %}{% endcapture %}
+  {{ pierre_content | markdownify }}
+</div>
+
+<hr>
+<div class="profile float-left speakers-profile">
   {% include figure.liquid loading="eager" path="assets/img/edoardo_ponti.jpeg" class="img-fluid z-depth-1 rounded-circle" alt="Edoardo M. Ponti" %}
   <div class="more-info">
     <p>University of Edinburgh, UK</p>

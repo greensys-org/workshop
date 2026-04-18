@@ -60,8 +60,8 @@ nav_order: 4
     <tr>
       <td rowspan="4">Session 2<br><small>10:45 - 12:30</small></td>
       <td style="background-color: #eef4f8;">10:45 - 11:30</td>
-      <td style="background-color: #eef4f8;">Invited Talk 2<br>TBD</td>
-      <td style="background-color: #eef4f8;"><span class="talk-title-line">`TBD`</span></td>
+      <td style="background-color: #eef4f8;">Invited Talk 2<br><a href="{{ '/speakers/pierre-jacquet/' | relative_url }}" target="_blank" rel="noopener">Pierre Jacquet</a></td>
+      <td style="background-color: #eef4f8;"><span class="talk-title-line">Monitoring GPUs in Cloud Platforms: Challenges and Opportunities for Orchestration</span></td>
     </tr>
     <tr>
       <td>11:30 - 11:50</td>
