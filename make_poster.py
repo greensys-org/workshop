@@ -41,8 +41,7 @@ def set_cell_border(cell, **kwargs):
     tcPr = tc.get_or_add_tcPr()
     tcBorders = OxmlElement('w:tcBorders')
     for edge in ('top', 'left', 'bottom', 'right', 'insideH', 'insideV'):
-        tag = qn(f'w:{edge}')
-        element = OxmlElement(tag)
+        element = OxmlElement(f'w:{edge}')
         element.set(qn('w:val'), kwargs.get(edge, 'none'))
         element.set(qn('w:sz'), '0')
         element.set(qn('w:space'), '0')
