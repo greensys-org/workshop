@@ -58,13 +58,12 @@ The Strand, Morrison Street, Edinburgh EH3 8EE, UK
   </thead>
   <tbody>
     <tr>
-      <td>Opening</td>
+      <td rowspan="3"><span class="session-label">Session 1</span><br><small class="session-time">09:00 - 10:30</small></td>
       <td>09:00 - 09:15</td>
       <td>Welcome and Opening</td>
       <td>Opening remarks by the organizers</td>
     </tr>
     <tr>
-      <td rowspan="2"><span class="session-label">Session 1</span><br><small class="session-time">09:15 - 10:20</small></td>
       <td style="background-color: #eef4f8;">09:15 - 10:00</td>
       <td style="background-color: #eef4f8;">Invited Talk 1<br><a href="{{ '/speakers/loic-lannelongue/' | relative_url }}" target="_blank" rel="noopener">Loic Lannelongue</a></td>
       <td style="background-color: #eef4f8;"><span class="talk-title-line">Un/sustainable computing: what can we do about it?</span></td>
@@ -109,14 +108,14 @@ The Strand, Morrison Street, Edinburgh EH3 8EE, UK
       <td style="background-color: #eef4f8;"><span class="talk-title-line">Adaptive foundation models for efficient and long-horizon AI</span></td>
     </tr>
     <tr>
-      <td>14:50 - 15:10</td>
-      <td>Paper 5</td>
-      <td>Quantifying the Carbon Reduction of DAG Workloads: A Job Shop Scheduling Perspective<br><small><em>Roozbeh Bostandoost, Adam Lechowicz, Walid A. Hanafy, Prashant Shenoy, Mohammad Hajiesmaili (University of Massachusetts Amherst)</em></small></td>
-    </tr>
-    <tr>
-      <td>15:10 - 15:30</td>
+        <td>14:50 - 15:10</td>
       <td>Paper 4</td>
       <td>Evaluation of a Task Offloading Simulator for Edge Resource Management: Comparison of Reinforcement Learning Algorithms<br><small><em>Danny De Novi, Lorenzo Carnevale, Khilud Abdulaziz Shikur, Massimo Villari (University of Messina)</em></small></td>
+    </tr>
+     <tr>
+            <td>15:10 - 15:30</td>
+      <td>Paper 5</td>
+      <td>Quantifying the Carbon Reduction of DAG Workloads: A Job Shop Scheduling Perspective<br><small><em>Roozbeh Bostandoost, Adam Lechowicz, Walid A. Hanafy, Prashant Shenoy, Mohammad Hajiesmaili (University of Massachusetts Amherst)</em></small></td>
     </tr>
     <tr class="break-row">
       <td><span class="break-label">Break</span></td>
@@ -125,8 +124,8 @@ The Strand, Morrison Street, Edinburgh EH3 8EE, UK
       <td>-</td>
     </tr>
     <tr>
-      <td rowspan="2"><span class="session-label">Session 4</span><br><small class="session-time">16:00 - 16:45</small></td>
-      <td style="background-color: #eef4f8;">15:35 - 16:20</td>
+      <td rowspan="2"><span class="session-label">Session 4</span><br><small class="session-time">16:00 - 17:15</small></td>
+      <td style="background-color: #eef4f8;">16:00 - 16:45</td>
       <td style="background-color: #eef4f8;">Invited Talk 4<br><a href="{{ '/speakers/maximilian-boether/' | relative_url }}" target="_blank" rel="noopener">Maximilian Boether</a></td>
       <td style="background-color: #eef4f8;"><span class="talk-title-line">Efficient data mixing and loading for foundation model training</span></td>
     </tr>
@@ -144,4 +143,4 @@ The Strand, Morrison Street, Edinburgh EH3 8EE, UK
   </tbody>
 </table>
 
-*Note: This schedule is tentative and will be finalized closer to the workshop date.*
+<!-- *Note: This schedule is tentative and will be finalized closer to the workshop date.* -->
