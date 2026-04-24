@@ -137,7 +137,7 @@ The Strand, Morrison Street, Edinburgh EH3 8EE, UK
     <tr>
       <td>Closing</td>
       <td>17:05 - 17:15</td>
-      <td>Best Paper Award & Closing Remarks</td>
+      <td>Closing Remarks</td>
       <td>Organizers</td>
     </tr>
   </tbody>
